@@ -1,0 +1,27 @@
+{
+  "name": "ccloops",
+  "version": "1.0.0",
+  "description": "cclooooops loops",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest -i --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ccloops/ccloops.git"
+  },
+  "keywords": [
+    "react",
+    "node",
+    "express"
+  ],
+  "author": "Catherine Looper",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ccloops/ccloops/issues"
+  },
+  "homepage": "https://github.com/ccloops/ccloops#readme",
+  "devDependencies": {
+    "eslint": "^4.16.0"
+  }
+}
