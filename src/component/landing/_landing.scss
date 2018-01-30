@@ -1,0 +1,56 @@
+@import 'vars';
+
+body {
+  background: repeating-linear-gradient(
+    45deg,
+    #bc608e,
+    #60bca0 40px,
+    #c78f17 40px,
+    #ebb31a 40px
+  );
+
+  background: repeating-radial-gradient(
+    circle,
+    #bc608e,
+    #60bca0 40px,
+    #c78f17 40px,
+    #ebb31a 40px
+  );
+}
+
+div {
+
+  margin: 0 auto;
+  width: 960px;
+
+  img {
+    border-radius: 10px;
+    margin: 10px auto;
+    max-width: 100%;
+    width: 100%;
+    position: relative;
+  }
+
+  p {
+    position: absolute;
+    width: 960px;
+    background: #fff;
+    padding: 5px;
+    box-sizing: border-box;
+    bottom: 0;
+    text-align: center;
+    opacity: .6;
+  }
+
+  a, p {
+    color: black;
+    font-size: 30px;
+
+    &:hover {
+      color: goldenrod;
+      // background-color: goldenrod;
+    }
+  }
+
+}
+
