@@ -6,7 +6,6 @@ class Landing extends React.Component {
     return (
       <div className='landing'>
         <h1>Catherine Looper</h1>
-        <div id="block"></div>
       </div>
     );
   }
