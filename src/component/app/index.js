@@ -13,6 +13,10 @@ class App extends React.Component {
         <BrowserRouter>
           <div>
             <h1>Catherine Looper</h1>
+            <div id='icons'>
+              <a target='blank' href='https://github.com/ccloops'><h3><FaGithub/></h3></a>
+              <a target='blank' href='https://www.linkedin.com/in/catherinelooper/'><h3><FaLinkedin/></h3></a>
+            </div>   
             <ul className='projects'>
               <a target='blank' href='https://geo-jumper-frontend.herokuapp.com/'>
                 <li>Geo-Jumper</li>
