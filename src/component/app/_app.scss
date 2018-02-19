@@ -1,0 +1,59 @@
+body {
+  // background: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); 
+  
+}
+
+h1 {
+  text-align: center;
+  font-size: 5em;
+  font-style: italic;
+  margin: 0 auto;
+  margin: 1em 0;
+
+}
+
+  .projects {
+
+    font-size: 2em;
+  
+     a:nth-child(even) {
+      // color: rgb(232, 152, 12);
+      color: cornsilk;
+      background-color: cornsilk;
+      padding: 5em 0;
+      text-align: center;
+      width: 100%;
+      background: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); 
+    
+
+      &:hover {
+        color: white;
+        background-color: darkSlateGray;
+        background: linear-gradient(to right, violet,indigo,blue,green,yellow,orange,red); 
+      
+
+      }
+    }
+  
+    a:nth-child(odd) {
+      color: cornsilk;
+      background-color: rgb(232, 152, 12);
+      padding: 5em 0;
+      text-align: center;
+      width: 100%;
+      // background: linear-gradient(to right, violet,indigo,blue,green,yellow,orange,red); 
+      background: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); 
+      
+    
+
+      &:hover {
+        color: white;
+        background-color: darkSlateGray;
+      //  background: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); 
+       background: linear-gradient(to right, violet,indigo,blue,green,yellow,orange,red); 
+       
+      }
+    }
+
+  }
+  
