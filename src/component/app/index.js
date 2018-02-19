@@ -29,7 +29,7 @@ class App extends React.Component {
                 <li>To Do List</li>
                 <p>In this project, I built a frontend Todo List application containing a Home Page with a brief description about the application, and a Dashboard page where users can create their own Todo List. To create a Todo List, users can enter a note title and description and click Submit New Note. Users also have the ability to remove any of their created notes by clicking the Delete button next to the note they would like to remove.</p>
               </a>
-              <a target='blank' href='https://ccloops.github.io/oh-rose/'>
+              <a target='blank' href='https://oh-rose.herokuapp.com/'>
                 <li>Oh, Rose</li>
                 <p>A React application for a band from Olympia, Washington.</p>
               </a>
