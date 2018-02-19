@@ -31,7 +31,7 @@ class App extends React.Component {
               </a>
               <a target='blank' href='https://ccloops.github.io/oh-rose/'>
                 <li>Oh, Rose</li>
-              
+                <p>A React application for a band from Olympia, Washington.</p>
               </a>
             </ul>
           </div>
