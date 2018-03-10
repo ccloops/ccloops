@@ -8,8 +8,25 @@ h1 {
   font-size: 5em;
   font-style: italic;
   margin: 0 auto;
-  margin: 1em 0;
+  margin: 0.5em 0;
+}
 
+
+#icons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+
+h3 {
+  width: 2vw;
+  margin: 0 auto;
+  color: black;
+
+  &:hover {
+    color: darksalmon;
+  }
 }
 
   .projects {
@@ -63,4 +80,6 @@ h1 {
     color: darkSlateGray;
     padding: 10px;
   }
+
+ 
   
