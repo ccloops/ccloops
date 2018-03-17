@@ -14,13 +14,14 @@ class App extends React.Component {
           <div>
             <nav>
               <ul>
+                <a href="#home"><li>Home</li></a>              
                 <a href="#about"><li>About</li></a>
                 <a href="#portfolio"><li>Portfolio</li></a>
                 <a href="#skills"><li>Skills</li></a>
                 <a href="#contact"><li>Contact</li></a>
               </ul>
             </nav>          
-            <h1>Catherine Looper</h1>
+            <h1 id="home">Catherine Looper</h1>
             <hr />
             <img src={Catherine} />
             <div id='icons'>
