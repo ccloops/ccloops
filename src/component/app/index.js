@@ -51,6 +51,7 @@ class App extends React.Component {
               </a>
 
               <div id="about">
+                <hr />
                 <h2>About Me</h2>
                 <hr/>
                 <p>JavaScript Developer, MERN Stack with background in customer service, inventory management, and database querying. Passionate about solution-driven development with a focus in creative and innovative customer-minded applications.
@@ -62,6 +63,8 @@ class App extends React.Component {
 
               <div id="skills">
                 <ul>
+                  <h2>Skills</h2>
+                  <hr />
                   <a href="https://www.javascript.com/"><li>JavaScript</li></a>
                   <a href="https://nodejs.org/en/"><li>Node.js</li></a>
                   <a href="https://www.mongodb.com/"><li>MongoDB</li></a>
@@ -76,6 +79,7 @@ class App extends React.Component {
               </div>
 
               <div id="contact">
+                <hr />              
                 <h2>Contact</h2>
                 <hr/>
                 <p>
