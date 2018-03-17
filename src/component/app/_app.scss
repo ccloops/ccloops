@@ -81,10 +81,8 @@ h3 {
     padding: 10px;
   }
 
-  nav {
-    display: flex;
-    flex-direction: row;
-    flex-basis: auto;
+  li {
+    display: inline-block;
   }
  
   

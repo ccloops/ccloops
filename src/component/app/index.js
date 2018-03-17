@@ -15,17 +15,17 @@ class App extends React.Component {
             <h1>Catherine Looper</h1>
             <nav>
               <ul>
-                <li><Link to='/about'>About</Link></li>
-                <li><Link to='/portfolio'>Portfolio</Link></li>
-                <li><Link to='/skills'>Skills</Link></li>
-                <li><Link to='/contact'>Contact</Link></li>  
+                <a href="#about"><li>About</li></a>
+                <a href="#portfolio"><li>Portfolio</li></a>
+                <a href="#skills"><li>Skills</li></a>
+                <a href="#icons"><li>Contact</li></a>
               </ul>
             </nav>          
             <div id='icons'>
               <a target='blank' href='https://github.com/ccloops'><h3><FaGithub/></h3></a>
               <a target='blank' href='https://www.linkedin.com/in/catherinelooper/'><h3><FaLinkedin/></h3></a>
             </div>   
-            <ul className='projects'>
+            <ul id="portfolio" className='projects'>
               <a target='blank' href='https://geo-jumper-frontend.herokuapp.com/'>
                 <li>Geo-Jumper</li>
                 <p>Geo-Jumper is a multiplayer fullstack platform game that combines socket.io with a frontend React library. This application is designed to create a unique game experience by matching online users to race to the finish line and be the first to catch the star. This application showcases a multiplayer/multi-level game and persists user data using MongoDB.</p>
@@ -45,6 +45,7 @@ class App extends React.Component {
                 <li>Oh, Rose</li>
                 <p>A React application for a band from Olympia, Washington.</p>
               </a>
+              <p id="about">This is the about me section</p>
             </ul>
           </div>
         </BrowserRouter>
