@@ -3,8 +3,8 @@ import {FaGithub, FaLinkedin} from 'react-icons/lib/fa';
 import React from 'react';
 import {BrowserRouter, Route, Link} from 'react-router-dom';
 
-// import Landing from '../landing';
-// import Projects from '../projects';
+import Landing from '../landing';
+import Catherine from '../../assets/catherine.jpg';
 
 class App extends React.Component {
   render() {
@@ -12,12 +12,24 @@ class App extends React.Component {
       <div className='app'>
         <BrowserRouter>
           <div>
-            <h1>Catherine Looper</h1>
+            <nav>
+              <ul>
+                <a href="#home"><li>Home</li></a>              
+                <a href="#about"><li>About</li></a>
+                <a href="#portfolio"><li>Portfolio</li></a>
+                <a href="#skills"><li>Skills</li></a>
+                <a href="#contact"><li>Contact</li></a>
+              </ul>
+            </nav>          
+            <h1 id="home">Catherine Looper</h1>
+            <hr />
+
+            <img src={Catherine} />
             <div id='icons'>
               <a target='blank' href='https://github.com/ccloops'><h3><FaGithub/></h3></a>
               <a target='blank' href='https://www.linkedin.com/in/catherinelooper/'><h3><FaLinkedin/></h3></a>
             </div>   
-            <ul className='projects'>
+            <ul id="portfolio" className='projects'>
               <a target='blank' href='https://geo-jumper-frontend.herokuapp.com/'>
                 <li>Geo-Jumper</li>
                 <p>Geo-Jumper is a multiplayer fullstack platform game that combines socket.io with a frontend React library. This application is designed to create a unique game experience by matching online users to race to the finish line and be the first to catch the star. This application showcases a multiplayer/multi-level game and persists user data using MongoDB.</p>
@@ -37,10 +49,50 @@ class App extends React.Component {
                 <li>Oh, Rose</li>
                 <p>A React application for a band from Olympia, Washington.</p>
               </a>
+
+              <div id="about">
+                <hr />
+                <h2>About Me</h2>
+                <hr/>
+                <p>JavaScript Developer, MERN Stack with background in customer service, inventory management, and database querying. Passionate about solution-driven development with a focus in creative and innovative customer-minded applications.
+              
+              In my free time, I enjoy creating photo and video projects for local musicians, attending Seattle JS Hackers Meetups and tinkering with web design.</p>
+              </div>
+
+              <hr />
+
+              <div id="skills">
+                <ul>
+                  <h2>Skills</h2>
+                  <hr />
+                  <a href="https://www.javascript.com/"><li>JavaScript</li></a>
+                  <a href="https://nodejs.org/en/"><li>Node.js</li></a>
+                  <a href="https://www.mongodb.com/"><li>MongoDB</li></a>
+                  <a href="http://mongoosejs.com/"><li>Mongoose</li></a>
+                  <a href="https://expressjs.com/"><li>Express</li></a>
+                  <a href="https://www.javascript.com/"><li>HTML</li></a>
+                  <a href="https://www.javascript.com/"><li>CSS</li></a>
+                  <a href="https://sass-lang.com/"><li>SASS</li></a>
+                  <a href="https://jquery.com/"><li>jQuery</li></a>
+                  <a href="https://www.postgresql.org/"><li>PostgreSQL</li></a>
+                </ul>
+              </div>
+
+              <div id="contact">
+                <hr />              
+                <h2>Contact</h2>
+                <hr/>
+                <ul>
+                  <li>Email: loopercat@gmail.com</li>
+                  <li>GitHub: https://github.com/ccloops</li>
+                  <li>LinkedIn: https://www.linkedin.com/in/catherinelooper/</li>
+                </ul>
+              </div>
             </ul>
+            <footer>
+              <a href="/"><h3> © 2018 Catherine Looper</h3></a>
+            </footer>
           </div>
-   
-        
         </BrowserRouter>
       </div>
     );
@@ -50,22 +102,6 @@ class App extends React.Component {
 export default App;
 
 
-// <div>
-// <header>
-// <nav>
-// <ul>
-//   <li><Link to='/'>Home</Link></li>
-//   <li><Link to='/projects'>Projects</Link></li>
-// </ul>
-// </nav>
-// </header>
-// <footer>
-// </footer>
-// <Route exact path='/' component={Landing}/>
-// <Route exact path='/projects' component={Projects}/>
-// <ul className='icons'>
-// <li><a href='https://github.com/ccloops' target='blank'><FaGithub/></a></li>
-// <li><a href='https://www.linkedin.com/in/catherinelooper/' target='blank'><FaLinkedin/></a></li>
-// </ul>
-
-// </div>
+    
+// <a target='blank' href='https://github.com/ccloops'><h3><FaGithub/></h3></a>
+// <a target='blank' href='https://www.linkedin.com/in/catherinelooper/'><h3><FaLinkedin/></h3></a>
