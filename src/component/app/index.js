@@ -82,10 +82,11 @@ class App extends React.Component {
                 <hr />              
                 <h2>Contact</h2>
                 <hr/>
-                <p>
-                  <a target='blank' href='https://github.com/ccloops'><h3><FaGithub/></h3></a>
-                  <a target='blank' href='https://www.linkedin.com/in/catherinelooper/'><h3><FaLinkedin/></h3></a>
-                </p>
+                <ul>
+                  <li>Email: loopercat@gmail.com</li>
+                  <li>GitHub: https://github.com/ccloops</li>
+                  <li>LinkedIn: https://www.linkedin.com/in/catherinelooper/</li>
+                </ul>
               </div>
             </ul>
             <footer>
@@ -99,3 +100,8 @@ class App extends React.Component {
 }
 
 export default App;
+
+
+    
+// <a target='blank' href='https://github.com/ccloops'><h3><FaGithub/></h3></a>
+// <a target='blank' href='https://www.linkedin.com/in/catherinelooper/'><h3><FaLinkedin/></h3></a>

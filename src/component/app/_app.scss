@@ -64,7 +64,7 @@ a {
 }
 
 
-h3 {
+#icons {
   width: 2vw;
   margin: 0 auto;
   color: black;
@@ -79,7 +79,6 @@ h3 {
     font-size: 2em;
   
      a:nth-child(even) {
-      // color: rgb(232, 152, 12);
       color: cornsilk;
       background-color: cornsilk;
       padding: 5em 0;
@@ -103,7 +102,6 @@ h3 {
       padding: 5em 0;
       text-align: center;
       width: 100%;
-      // background: linear-gradient(to right, violet,indigo,blue,green,yellow,orange,red); 
       background: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); 
       
     
@@ -111,7 +109,6 @@ h3 {
       &:hover {
         color: white;
         background-color: darkSlateGray;
-      //  background: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); 
        background: linear-gradient(to right, violet,indigo,blue,green,yellow,orange,red); 
        
       }
@@ -130,60 +127,74 @@ h3 {
     display: inline-block;
   }
 
-  #about, #contact {
-    padding: 5em 0;
-
-    // -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-    // -moz-animation: fadein 2s; /* Firefox < 16 */
-    //  -ms-animation: fadein 2s; /* Internet Explorer */
-    //   -o-animation: fadein 2s; /* Opera < 12.1 */
-    //      animation: fadein 2s;
+#about, #contact {
+  padding: 5em 0;
   
-    //      @keyframes fadein {
-    //       from { opacity: 0; }
-    //       to   { opacity: 1; }
-    //   }
-    
-  }
+}
 
-  #about, h2 {
-    text-align: center;
-  }
+#about, h2 {
+  text-align: center;
+}
 
-  hr { 
-    border : 0;
-    height: 1px; 
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0)); 
-    margin: 20px 0px;
-  }
+hr { 
+  border : 0;
+  height: 1px; 
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0)); 
+  margin: 20px 0px;
+}
 
-  #portfolio>a {
-    padding-top: 20px;
-    float: left;
-    width: 20%;
-    font-size: 20px;
-    height: 500px;
-  }
+#portfolio>a {
+  padding-top: 20px;
+  float: left;
+  width: 20%;
+  font-size: 20px;
+  height: 500px;
+}
 
-  #skills a {
-    float: left;
-    width: 10%;
-    font-size: 20px;
-  }
+#skills a {
+  float: left;
+  width: 10%;
+  font-size: 20px;
+  margin-bottom: 20px;
+  // text-shadow: 2px 2px rgb(4, 4, 4);
+}
+  
+footer {
+  width: 100%;
+  background-color: darkSlateGray;
+  padding: 2em;
+  clear: both;
+}
 
-  footer {
-    width: 100%;
-    background-color: darkSlateGray;
-    padding: 2em;
-  }
+footer h3 {
+  width: 100%;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 2em;
+  color: cornsilk;
+}
 
-  footer h3 {
-    width: 100%;
-    text-align: center;
-    margin-top: 0;
-    margin-bottom: 2em;
-    color: cornsilk;
-  }
+// #contact {
+//   width: 100%;
+//   background-color: cornsilk;
+// }
+
+// #contact a h3{
+//   width: 20%;
+//   background-color: cornsilk; 
+//   border-radius: 50%;
+//   display: inline-block;
+//   margin: 0 auto;    
+//   float: left;
+//   color: black;
+// }
+
+
+#contact li {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 2em;
+}
 
  
   
