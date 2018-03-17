@@ -17,7 +17,7 @@ class App extends React.Component {
                 <a href="#about"><li>About</li></a>
                 <a href="#portfolio"><li>Portfolio</li></a>
                 <a href="#skills"><li>Skills</li></a>
-                <a href="#icons"><li>Contact</li></a>
+                <a href="#contact"><li>Contact</li></a>
               </ul>
             </nav>          
             <h1>Catherine Looper</h1>
@@ -54,6 +54,14 @@ class App extends React.Component {
               
               In my free time, I enjoy creating photo and video projects for local musicians, attending Seattle JS Hackers Meetups and tinkering with web design.</p>
               </div>
+              <div id="contact">
+                <h2>Contact</h2>
+                <hr/>
+                <p>
+                  <a target='blank' href='https://github.com/ccloops'><h3><FaGithub/></h3></a>
+                  <a target='blank' href='https://www.linkedin.com/in/catherinelooper/'><h3><FaLinkedin/></h3></a>
+                </p>
+              </div>
             </ul>
           </div>
         </BrowserRouter>
@@ -63,25 +71,3 @@ class App extends React.Component {
 }
 
 export default App;
-
-
-// <div>
-// <header>
-// <nav>
-// <ul>
-//   <li><Link to='/'>Home</Link></li>
-//   <li><Link to='/projects'>Projects</Link></li>
-// </ul>
-// </nav>
-// </header>
-// <footer>
-// </footer>
-// <Route exact path='/' component={Landing}/>
-// <Route exact path='/projects' component={Projects}/>
-// <ul className='icons'>
-// <li><a href='https://github.com/ccloops' target='blank'><FaGithub/></a></li>
-// <li><a href='https://www.linkedin.com/in/catherinelooper/' target='blank'><FaLinkedin/></a></li>
-// </ul>
-
-// </div>
-

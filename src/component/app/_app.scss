@@ -18,7 +18,7 @@ nav {
   background-color: darkSalmon;
   position: fixed;
   top: 0;
-  padding-left: 1em;
+  padding-left: 5em;
   padding-top: 1.6em;
   margin-bottom: 10px;
 }
@@ -120,12 +120,12 @@ h3 {
     display: inline-block;
   }
 
-  #about {
+  #about, #contact {
     padding: 5em 0;
     
   }
 
-  #about h2 {
+  #about, h2 {
     text-align: center;
   }
 
