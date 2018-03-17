@@ -20,15 +20,18 @@ class App extends React.Component {
                 <a href="#skills"><li>Skills</li></a>
                 <a href="#contact"><li>Contact</li></a>
               </ul>
-            </nav>          
-            <h1 id="home">Catherine Looper</h1>
+            </nav>  
+            <div id="img">        
+              <h1 id="home">Catherine Looper</h1>
+              <div id='icons'>
+                <a target='blank' href='https://github.com/ccloops'><h3><FaGithub/></h3></a>
+                <a target='blank' href='https://www.linkedin.com/in/catherinelooper/'><h3><FaLinkedin/></h3></a>
+              </div>   
+            </div>
             <hr />
 
-            <img src={Catherine} />
-            <div id='icons'>
-              <a target='blank' href='https://github.com/ccloops'><h3><FaGithub/></h3></a>
-              <a target='blank' href='https://www.linkedin.com/in/catherinelooper/'><h3><FaLinkedin/></h3></a>
-            </div>   
+            <img src={Catherine} alt="" />
+            
             <ul id="portfolio" className='projects'>
               <a target='blank' href='https://geo-jumper-frontend.herokuapp.com/'>
                 <li>Geo-Jumper</li>

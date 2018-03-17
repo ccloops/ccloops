@@ -1,4 +1,4 @@
-body {
+body {  
   // background: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); 
   -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
   -moz-animation: fadein 2s; /* Firefox < 16 */
@@ -19,6 +19,13 @@ h1 {
   margin: 0 auto;
   margin-top: 2em;
 }
+
+// #img {
+//   background-image: url('../../assets/catherine.jpg');
+//   height: 500px;
+//   max-width: 100%;
+  
+// }
 
 nav {
   width: 100%;
@@ -43,7 +50,10 @@ img {
   max-width: 20%;
   border-radius: 100%;
   margin: 0 auto;
-  border: 2px solid black;
+  // border: 2px solid black;
+  box-shadow: 10px 5px 5px rgba(10, 10, 10, 0.5);
+  margin-bottom: 20px;
+  
 }
 
 a {
@@ -58,16 +68,12 @@ a {
 
 
 #icons {
-  display: flex;
-  justify-content: center;
+  display: inline-block;
   margin-bottom: 20px;
-}
-
-
-#icons {
   width: 2vw;
   margin: 0 auto;
   color: black;
+  text-align: center;
 
   &:hover {
     color: darksalmon;
@@ -150,6 +156,13 @@ hr {
   font-size: 20px;
   height: 500px;
   overflow: scroll;
+  margin-bottom: 20px;
+  // display: none;
+
+  // &:hover {
+  //   display: inline-block;
+  // }
+
 }
 
 #skills a {
