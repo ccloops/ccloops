@@ -23,6 +23,7 @@ class App extends React.Component {
             </nav>          
             <h1 id="home">Catherine Looper</h1>
             <hr />
+
             <img src={Catherine} />
             <div id='icons'>
               <a target='blank' href='https://github.com/ccloops'><h3><FaGithub/></h3></a>
@@ -48,6 +49,7 @@ class App extends React.Component {
                 <li>Oh, Rose</li>
                 <p>A React application for a band from Olympia, Washington.</p>
               </a>
+
               <div id="about">
                 <h2>About Me</h2>
                 <hr/>
@@ -55,6 +57,24 @@ class App extends React.Component {
               
               In my free time, I enjoy creating photo and video projects for local musicians, attending Seattle JS Hackers Meetups and tinkering with web design.</p>
               </div>
+
+              <hr />
+
+              <div id="skills">
+                <ul>
+                  <a href="https://www.javascript.com/"><li>JavaScript</li></a>
+                  <a href="https://nodejs.org/en/"><li>Node.js</li></a>
+                  <a href="https://www.mongodb.com/"><li>MongoDB</li></a>
+                  <a href="http://mongoosejs.com/"><li>Mongoose</li></a>
+                  <a href="https://expressjs.com/"><li>Express</li></a>
+                  <a href="https://www.javascript.com/"><li>HTML</li></a>
+                  <a href="https://www.javascript.com/"><li>CSS</li></a>
+                  <a href="https://sass-lang.com/"><li>SASS</li></a>
+                  <a href="https://jquery.com/"><li>jQuery</li></a>
+                  <a href="https://www.postgresql.org/"><li>PostgreSQL</li></a>
+                </ul>
+              </div>
+
               <div id="contact">
                 <h2>Contact</h2>
                 <hr/>
