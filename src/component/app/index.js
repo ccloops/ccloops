@@ -88,6 +88,9 @@ class App extends React.Component {
                 </p>
               </div>
             </ul>
+            <footer>
+              <a href="/"><h3> © 2018 Catherine Looper</h3></a>
+            </footer>
           </div>
         </BrowserRouter>
       </div>
