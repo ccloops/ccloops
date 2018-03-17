@@ -8,7 +8,7 @@ h1 {
   font-size: 5em;
   font-style: italic;
   margin: 0 auto;
-  margin: 0.5em 0;
+  margin-top: 2em;
 }
 
 nav {
@@ -16,13 +16,24 @@ nav {
   border: 2px solid black;
   height: 5em;
   background-color: darkSalmon;
+  position: fixed;
+  top: 0;
+  padding-left: 1em;
+  padding-top: 1.6em;
+  margin-bottom: 10px;
 }
 
 nav li {
   width: 25%;
   display: inline-block;
   float: left;
-  margin-top: 1.6em;
+}
+
+img {
+  max-width: 20%;
+  border-radius: 100%;
+  margin: 0 auto;
+  border: 2px solid black;
 }
 
 a {
@@ -107,6 +118,22 @@ h3 {
 
   li {
     display: inline-block;
+  }
+
+  #about {
+    padding: 5em 0;
+    
+  }
+
+  #about h2 {
+    text-align: center;
+  }
+
+  hr { 
+    border : 0;
+    height: 1px; 
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0)); 
+    margin: 20px 0px;
   }
  
   

@@ -21,6 +21,7 @@ class App extends React.Component {
               </ul>
             </nav>          
             <h1>Catherine Looper</h1>
+            <hr />
             <img src={Catherine} />
             <div id='icons'>
               <a target='blank' href='https://github.com/ccloops'><h3><FaGithub/></h3></a>
@@ -46,7 +47,13 @@ class App extends React.Component {
                 <li>Oh, Rose</li>
                 <p>A React application for a band from Olympia, Washington.</p>
               </a>
-              <p id="about">This is the about me section</p>
+              <div id="about">
+                <h2>About Me</h2>
+                <hr/>
+                <p>JavaScript Developer, MERN Stack with background in customer service, inventory management, and database querying. Passionate about solution-driven development with a focus in creative and innovative customer-minded applications.
+              
+              In my free time, I enjoy creating photo and video projects for local musicians, attending Seattle JS Hackers Meetups and tinkering with web design.</p>
+              </div>
             </ul>
           </div>
         </BrowserRouter>
@@ -77,3 +84,4 @@ export default App;
 // </ul>
 
 // </div>
+
