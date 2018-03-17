@@ -3,7 +3,7 @@ import {FaGithub, FaLinkedin} from 'react-icons/lib/fa';
 import React from 'react';
 import {BrowserRouter, Route, Link} from 'react-router-dom';
 
-// import Landing from '../landing';
+import Landing from '../landing';
 // import Projects from '../projects';
 
 class App extends React.Component {
@@ -13,6 +13,14 @@ class App extends React.Component {
         <BrowserRouter>
           <div>
             <h1>Catherine Looper</h1>
+            <nav>
+              <ul>
+                <li><Link to='/about'>About</Link></li>
+                <li><Link to='/portfolio'>Portfolio</Link></li>
+                <li><Link to='/skills'>Skills</Link></li>
+                <li><Link to='/contact'>Contact</Link></li>  
+              </ul>
+            </nav>          
             <div id='icons'>
               <a target='blank' href='https://github.com/ccloops'><h3><FaGithub/></h3></a>
               <a target='blank' href='https://www.linkedin.com/in/catherinelooper/'><h3><FaLinkedin/></h3></a>
@@ -39,8 +47,6 @@ class App extends React.Component {
               </a>
             </ul>
           </div>
-   
-        
         </BrowserRouter>
       </div>
     );
