@@ -4,7 +4,7 @@ import React from 'react';
 import {BrowserRouter, Route, Link} from 'react-router-dom';
 
 import Landing from '../landing';
-// import Projects from '../projects';
+import Catherine from '../../assets/catherine.jpg';
 
 class App extends React.Component {
   render() {
@@ -12,7 +12,6 @@ class App extends React.Component {
       <div className='app'>
         <BrowserRouter>
           <div>
-            <h1>Catherine Looper</h1>
             <nav>
               <ul>
                 <a href="#about"><li>About</li></a>
@@ -21,6 +20,8 @@ class App extends React.Component {
                 <a href="#icons"><li>Contact</li></a>
               </ul>
             </nav>          
+            <h1>Catherine Looper</h1>
+            <img src={Catherine} />
             <div id='icons'>
               <a target='blank' href='https://github.com/ccloops'><h3><FaGithub/></h3></a>
               <a target='blank' href='https://www.linkedin.com/in/catherinelooper/'><h3><FaLinkedin/></h3></a>

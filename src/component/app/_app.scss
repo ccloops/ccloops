@@ -11,6 +11,30 @@ h1 {
   margin: 0.5em 0;
 }
 
+nav {
+  width: 100%;
+  border: 2px solid black;
+  height: 5em;
+  background-color: darkSalmon;
+}
+
+nav li {
+  width: 25%;
+  display: inline-block;
+  float: left;
+  margin-top: 1.6em;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  
+  &:hover {
+    text-decoration: none;
+    color: salmon;
+  }
+}
+
 
 #icons {
   display: flex;
