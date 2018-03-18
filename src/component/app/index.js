@@ -7,6 +7,9 @@ import Landing from '../landing';
 import Catherine from '../../assets/catherine.jpg';
 import Trendly from '../../assets/Trendly-flowchart.png';
 import GeoJumper from '../../assets/lava-level-overview.png';
+import OhRose from '../../assets/oh-rose.png';
+import Todo from '../../assets/todo-list-overview.png';
+import QuizFellows from '../../assets/quiz-fellows.png';
 
 class App extends React.Component {
   render() {
@@ -48,14 +51,17 @@ class App extends React.Component {
               <a target='blank' href='https://ccloops.github.io/quiz-fellows/'>
                 <li>Quiz Fellows</li>
                 <p>Quiz Fellows is a quiz generating application written in pure vanilla JavaScript. This application allows users to take any of the hard-coded beginner-level coding quizzes in the `Take Quiz` section of the application. The application also allows users to make their very own quizzes in the `Make Quiz` section. These quizzes are then stored so that the user can take their personalized quiz in the same format as the hard-coded quizzes. This application relies on local storage for persistence.</p>
+                <img id="quiz-fellows" src={QuizFellows} alt="Quiz Fellows" />
               </a>
               <a target='blank' href='https://github.com/ccloops/28-todo-app/tree/master/lab-catherine'>
                 <li>To Do List</li>
                 <p>In this project, I built a frontend Todo List application containing a Home Page with a brief description about the application, and a Dashboard page where users can create their own Todo List. To create a Todo List, users can enter a note title and description and click Submit New Note. Users also have the ability to remove any of their created notes by clicking the Delete button next to the note they would like to remove.</p>
+                <img id="todo" src={Todo} alt="To do list" />
               </a>
               <a target='blank' href='https://oh-rose.herokuapp.com/'>
                 <li>Oh, Rose</li>
                 <p>A React application for a band from Olympia, Washington.</p>
+                <img id="oh-rose" src={OhRose} alt="Oh Rose" />
               </a>
             </ul>
 
