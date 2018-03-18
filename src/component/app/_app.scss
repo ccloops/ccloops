@@ -247,3 +247,18 @@ body, html {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.portfolio-containers {
+  p {
+    display: none;
+  }
+
+  &:hover {
+    p {
+      display: inline;
+    }
+    img {
+      display: none;
+    }
+  }
+}
