@@ -30,7 +30,7 @@ class App extends React.Component {
             </div>
             <hr />
 
-            <img src={Catherine} alt="" />
+            <img src={Catherine} alt="image of Catherine Looper"  />
             
             <ul id="portfolio" className='projects'>
               <a target='blank' href='https://geo-jumper-frontend.herokuapp.com/'>
@@ -88,8 +88,8 @@ class App extends React.Component {
               <hr/>
               <ul>
                 <li>Email: loopercat@gmail.com</li>
-                <li>GitHub: https://github.com/ccloops</li>
-                <li>LinkedIn: https://www.linkedin.com/in/catherinelooper/</li>
+                <li><a href="https://github.com/ccloops" target="blank">GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/catherinelooper/" target="blank">LinkedIn</a></li>
               </ul>
             </div>
     

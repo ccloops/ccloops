@@ -155,6 +155,10 @@ a {
   
 }
 
+#contact a:hover {
+  color: salmon;
+}
+
 #about, h2 {
   text-align: center;
 }
@@ -232,11 +236,13 @@ body, html {
 }
 
 .parallax { 
-  /* The image used */
-  background-image: url("../../assets/catherine.jpg");
+
+  height: 400px;
+  
+  background-image: url("../../assets/color-block.png");
 
   /* Full height */
-  height: 100%; 
+  // height: 100%; 
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
