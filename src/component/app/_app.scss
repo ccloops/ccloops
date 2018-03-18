@@ -255,7 +255,8 @@ body, html {
 
   &:hover {
     p {
-      display: inline;
+      display: inline-block;
+      
     }
     img {
       display: none;
