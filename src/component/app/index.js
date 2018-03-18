@@ -52,46 +52,47 @@ class App extends React.Component {
                 <li>Oh, Rose</li>
                 <p>A React application for a band from Olympia, Washington.</p>
               </a>
+            </ul>
 
-              <div id="about">
-                <hr />
-                <h2>About Me</h2>
-                <hr/>
-                <p>JavaScript Developer, MERN Stack with background in customer service, inventory management, and database querying. Passionate about solution-driven development with a focus in creative and innovative customer-minded applications.
+            <div id="about">
+              <hr />
+              <h2>About Me</h2>
+              <hr/>
+              <p>JavaScript Developer, MERN Stack with background in customer service, inventory management, and database querying. Passionate about solution-driven development with a focus in creative and innovative customer-minded applications.
               
               In my free time, I enjoy creating photo and video projects for local musicians, attending Seattle JS Hackers Meetups and tinkering with web design.</p>
-              </div>
+            </div>
 
-              <hr />
+            <hr />
 
-              <div id="skills">
-                <ul>
-                  <h2>Skills</h2>
-                  <hr />
-                  <a href="https://www.javascript.com/"><li>JavaScript</li></a>
-                  <a href="https://nodejs.org/en/"><li>Node.js</li></a>
-                  <a href="https://www.mongodb.com/"><li>MongoDB</li></a>
-                  <a href="http://mongoosejs.com/"><li>Mongoose</li></a>
-                  <a href="https://expressjs.com/"><li>Express</li></a>
-                  <a href="https://www.javascript.com/"><li>HTML</li></a>
-                  <a href="https://www.javascript.com/"><li>CSS</li></a>
-                  <a href="https://sass-lang.com/"><li>SASS</li></a>
-                  <a href="https://jquery.com/"><li>jQuery</li></a>
-                  <a href="https://www.postgresql.org/"><li>PostgreSQL</li></a>
-                </ul>
-              </div>
+            <div id="skills">
+              <ul>
+                <h2>Skills</h2>
+                <hr />
+                <a href="https://www.javascript.com/"><li>JavaScript</li></a>
+                <a href="https://nodejs.org/en/"><li>Node.js</li></a>
+                <a href="https://www.mongodb.com/"><li>MongoDB</li></a>
+                <a href="http://mongoosejs.com/"><li>Mongoose</li></a>
+                <a href="https://expressjs.com/"><li>Express</li></a>
+                <a href="https://www.javascript.com/"><li>HTML</li></a>
+                <a href="https://www.javascript.com/"><li>CSS</li></a>
+                <a href="https://sass-lang.com/"><li>SASS</li></a>
+                <a href="https://jquery.com/"><li>jQuery</li></a>
+                <a href="https://www.postgresql.org/"><li>PostgreSQL</li></a>
+              </ul>
+            </div>
 
-              <div id="contact">
-                <hr />              
-                <h2>Contact</h2>
-                <hr/>
-                <ul>
-                  <li>Email: loopercat@gmail.com</li>
-                  <li>GitHub: https://github.com/ccloops</li>
-                  <li>LinkedIn: https://www.linkedin.com/in/catherinelooper/</li>
-                </ul>
-              </div>
-            </ul>
+            <div id="contact">
+              <hr />              
+              <h2>Contact</h2>
+              <hr/>
+              <ul>
+                <li>Email: loopercat@gmail.com</li>
+                <li>GitHub: https://github.com/ccloops</li>
+                <li>LinkedIn: https://www.linkedin.com/in/catherinelooper/</li>
+              </ul>
+            </div>
+    
             <footer>
               <a href="/"><h3> © 2018 Catherine Looper</h3></a>
             </footer>
