@@ -66,6 +66,15 @@ a {
   }
 }
 
+.projects a {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+  width: 15%;
+  background-color: darksalmon;
+  text-align: center;
+}
+
 
 #icons {
   display: inline-block;
@@ -80,16 +89,20 @@ a {
   }
 }
 
-  .projects {
+ #skills {
 
     font-size: 2em;
   
      a:nth-child(even) {
+      float: left;
+      width: 10%;
+      font-size: 20px;
+      margin-bottom: 20px;
       color: cornsilk;
       background-color: cornsilk;
       padding: 5em 0;
       text-align: center;
-      width: 100%;
+      // width: 100%;
       background: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); 
     
 
@@ -103,11 +116,15 @@ a {
     }
   
     a:nth-child(odd) {
+      float: left;
+      width: 10%;
+      font-size: 20px;
+      margin-bottom: 20px;
       color: cornsilk;
       background-color: rgb(232, 152, 12);
       padding: 5em 0;
       text-align: center;
-      width: 100%;
+      // width: 100%;
       background: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); 
       
     
@@ -165,13 +182,13 @@ hr {
 
 }
 
-#skills a {
-  float: left;
-  width: 10%;
-  font-size: 20px;
-  margin-bottom: 20px;
-  // text-shadow: 2px 2px rgb(4, 4, 4);
-}
+// #skills a {
+//   float: left;
+//   width: 10%;
+//   font-size: 20px;
+//   margin-bottom: 20px;
+//   // text-shadow: 2px 2px rgb(4, 4, 4);
+// }
   
 footer {
   width: 100%;
