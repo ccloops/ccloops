@@ -21,7 +21,7 @@ class App extends React.Component {
                 <a href="#contact"><li>Contact</li></a>
               </ul>
             </nav>  
-            <div id="img">        
+            <div id="img" className="parallax">        
               <h1 id="home">Catherine Looper</h1>
               <div id='icons'>
                 <a target='blank' href='https://github.com/ccloops'><h3><FaGithub/></h3></a>
