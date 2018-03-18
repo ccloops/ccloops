@@ -69,16 +69,16 @@ class App extends React.Component {
               <ul>
                 <h2>Skills</h2>
                 <hr />
-                <a href="https://www.javascript.com/"><li>JavaScript</li></a>
-                <a href="https://nodejs.org/en/"><li>Node.js</li></a>
-                <a href="https://www.mongodb.com/"><li>MongoDB</li></a>
-                <a href="http://mongoosejs.com/"><li>Mongoose</li></a>
-                <a href="https://expressjs.com/"><li>Express</li></a>
-                <a href="https://www.javascript.com/"><li>HTML</li></a>
-                <a href="https://www.javascript.com/"><li>CSS</li></a>
-                <a href="https://sass-lang.com/"><li>SASS</li></a>
-                <a href="https://jquery.com/"><li>jQuery</li></a>
-                <a href="https://www.postgresql.org/"><li>PostgreSQL</li></a>
+                <a href="https://www.javascript.com/" target="blank"><li>JavaScript</li></a>
+                <a href="https://nodejs.org/en/" target="blank"><li>Node.js</li></a>
+                <a href="https://www.mongodb.com/" target="blank"><li>MongoDB</li></a>
+                <a href="http://mongoosejs.com/" target="blank"><li>Mongoose</li></a>
+                <a href="https://expressjs.com/" target="blank"><li>Express</li></a>
+                <a href="https://www.javascript.com/" target="blank"><li>HTML</li></a>
+                <a href="https://www.javascript.com/" target="blank"><li>CSS</li></a>
+                <a href="https://sass-lang.com/" target="blank"><li>SASS</li></a>
+                <a href="https://jquery.com/" target="blank"><li>jQuery</li></a>
+                <a href="https://www.postgresql.org/" target="blank"><li>PostgreSQL</li></a>
               </ul>
             </div>
 
