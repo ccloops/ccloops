@@ -46,11 +46,10 @@ nav li {
   float: left;
 }
 
-img {
+#catherine-image {
   max-width: 20%;
   border-radius: 100%;
   margin: 0 auto;
-  // border: 2px solid black;
   box-shadow: 10px 5px 5px rgba(10, 10, 10, 0.5);
   margin-bottom: 20px;
   
@@ -241,10 +240,8 @@ body, html {
   
   background-image: url("../../assets/color-block.png");
 
-  /* Full height */
   // height: 100%; 
 
-  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;

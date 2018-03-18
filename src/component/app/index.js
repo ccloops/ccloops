@@ -5,6 +5,8 @@ import {BrowserRouter, Route, Link} from 'react-router-dom';
 
 import Landing from '../landing';
 import Catherine from '../../assets/catherine.jpg';
+import Trendly from '../../assets/Trendly-flowchart.png';
+import GeoJumper from '../../assets/lava-level-overview.png';
 
 class App extends React.Component {
   render() {
@@ -30,16 +32,19 @@ class App extends React.Component {
             </div>
             <hr />
 
-            <img src={Catherine} alt="image of Catherine Looper"  />
+            <img src={Catherine} id="catherine-image" alt="image of Catherine Looper"  />
             
             <ul id="portfolio" className='projects'>
               <a target='blank' href='https://geo-jumper-frontend.herokuapp.com/'>
                 <li>Geo-Jumper</li>
                 <p>Geo-Jumper is a multiplayer fullstack platform game that combines socket.io with a frontend React library. This application is designed to create a unique game experience by matching online users to race to the finish line and be the first to catch the star. This application showcases a multiplayer/multi-level game and persists user data using MongoDB.</p>
+                <img id="geo-jumper" src={GeoJumper} alt="Geo Jumper" />
               </a>
               <a target='blank' href='https://github.com/Meetup-Trendly/trendly-server'>
                 <li>Trendly</li>
-                <p>Trendly is a RESTful API that connects users via (Short Message Service) SMS to Meetup (https://www.meetup.com/). This app allows users to sign up with their Meetup User ID via text message. Once signed up, users will automatically receive a text notification 24 hours before any of their upcoming meetup events. With the Trendly application, users no longer need to worry about missing a Meetup event as text notifications will keep users up to date on all of their Meetup groups.</p></a>
+                <p>Trendly is a RESTful API that connects users via (Short Message Service) SMS to Meetup (https://www.meetup.com/). This app allows users to sign up with their Meetup User ID via text message. Once signed up, users will automatically receive a text notification 24 hours before any of their upcoming meetup events. With the Trendly application, users no longer need to worry about missing a Meetup event as text notifications will keep users up to date on all of their Meetup groups.</p>
+                <img id="trendly" src={Trendly} alt="Trendly Flowchart" />
+              </a>
               <a target='blank' href='https://ccloops.github.io/quiz-fellows/'>
                 <li>Quiz Fellows</li>
                 <p>Quiz Fellows is a quiz generating application written in pure vanilla JavaScript. This application allows users to take any of the hard-coded beginner-level coding quizzes in the `Take Quiz` section of the application. The application also allows users to make their very own quizzes in the `Make Quiz` section. These quizzes are then stored so that the user can take their personalized quiz in the same format as the hard-coded quizzes. This application relies on local storage for persistence.</p>
