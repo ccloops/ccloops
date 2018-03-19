@@ -75,19 +75,6 @@ a {
 }
 
 
-#icons {
-  display: inline-block;
-  margin-bottom: 20px;
-  width: 2vw;
-  margin: 0 auto;
-  color: black;
-  text-align: center;
-
-  &:hover {
-    color: darksalmon;
-  }
-}
-
  #skills {
 
     font-size: 2em;
@@ -265,5 +252,18 @@ body, html {
     img {
       display: none;
     }
+  }
+}
+
+
+#icons a {
+  display: inline-block;
+  margin: 2em;
+  width: 2vw;
+  // border: 2px solid black;
+  float: right;
+
+  &:hover {
+    color: darksalmon;
   }
 }
