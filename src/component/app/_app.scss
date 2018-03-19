@@ -250,6 +250,9 @@ body, html {
 }
 
 .portfolio-containers {
+  img {
+    height: 200px;    
+  }
   p {
     display: none;
   }
