@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Righteous');
 
 body {  
-  // background: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); 
   -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
   -moz-animation: fadein 2s; /* Firefox < 16 */
    -ms-animation: fadein 2s; /* Internet Explorer */
@@ -22,16 +21,8 @@ h1 {
   margin-top: 1em;
 }
 
-// #img {
-//   background-image: url('../../assets/catherine.jpg');
-//   height: 500px;
-//   max-width: 100%;
-  
-// }
-
 nav {
   width: 100%;
-  // border: 2px solid black;
   height: 5em;
   background-color: darkSalmon;
   position: fixed;
@@ -91,7 +82,6 @@ a {
       background-color: cornsilk;
       padding: 5em 0;
       text-align: center;
-      // width: 100%;
       background: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); 
     
 
@@ -113,7 +103,6 @@ a {
       background-color: rgb(232, 152, 12);
       padding: 5em 0;
       text-align: center;
-      // width: 100%;
       background: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); 
       
     
@@ -172,22 +161,8 @@ hr {
   height: 500px;
   overflow: scroll;
   margin-bottom: 20px;
-  // display: none;
-
-  // &:hover {
-  //   display: inline-block;
-  // }
-
 }
 
-// #skills a {
-//   float: left;
-//   width: 10%;
-//   font-size: 20px;
-//   margin-bottom: 20px;
-//   // text-shadow: 2px 2px rgb(4, 4, 4);
-// }
-  
 footer {
   width: 100%;
   background-color: darkSlateGray;
@@ -203,22 +178,6 @@ footer h3 {
   color: cornsilk;
 }
 
-// #contact {
-//   width: 100%;
-//   background-color: cornsilk;
-// }
-
-// #contact a h3{
-//   width: 20%;
-//   background-color: cornsilk; 
-//   border-radius: 50%;
-//   display: inline-block;
-//   margin: 0 auto;    
-//   float: left;
-//   color: black;
-// }
-
-
 #contact li {
   text-align: center;
   font-size: 20px;
@@ -230,13 +189,8 @@ body, html {
 }
 
 .parallax { 
-
   height: 350px;
-  
   background-image: url("../../assets/color-block.png");
-
-  // height: 100%; 
-
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -267,7 +221,6 @@ body, html {
   display: inline-block;
   margin: 2em;
   width: 2vw;
-  // border: 2px solid black;
   float: right;
 
   &:hover {

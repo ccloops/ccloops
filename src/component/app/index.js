@@ -126,8 +126,3 @@ class App extends React.Component {
 }
 
 export default App;
-
-
-    
-// <a target='blank' href='https://github.com/ccloops'><h3><FaGithub/></h3></a>
-// <a target='blank' href='https://www.linkedin.com/in/catherinelooper/'><h3><FaLinkedin/></h3></a>
