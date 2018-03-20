@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+
 body {  
   // background: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); 
   -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
@@ -17,7 +19,7 @@ h1 {
   font-size: 5em;
   font-style: italic;
   margin: 0 auto;
-  margin-top: 2em;
+  margin-top: 1em;
 }
 
 // #img {
@@ -34,14 +36,15 @@ nav {
   background-color: darkSalmon;
   position: fixed;
   top: 0;
-  padding-left: 5em;
+  padding-left: 6em;
   padding-top: 1.6em;
   margin-bottom: 10px;
   box-shadow: 10px 5px 5px rgba(10, 10, 10, 0.5);
+  font-family: 'Righteous', cursive;
 }
 
 nav li {
-  width: 20%;
+  width: 15%;
   display: inline-block;
   float: left;
 }
@@ -74,19 +77,6 @@ a {
   text-align: center;
 }
 
-
-#icons {
-  display: inline-block;
-  margin-bottom: 20px;
-  width: 2vw;
-  margin: 0 auto;
-  color: black;
-  text-align: center;
-
-  &:hover {
-    color: darksalmon;
-  }
-}
 
  #skills {
 
@@ -160,6 +150,11 @@ a {
 
 #about, h2 {
   text-align: center;
+  font-size: 20px;
+}
+
+#about p {
+  margin-top: 70px;
 }
 
 hr { 
@@ -236,7 +231,7 @@ body, html {
 
 .parallax { 
 
-  height: 400px;
+  height: 350px;
   
   background-image: url("../../assets/color-block.png");
 
@@ -249,6 +244,9 @@ body, html {
 }
 
 .portfolio-containers {
+  img {
+    height: 200px;    
+  }
   p {
     display: none;
   }
@@ -262,4 +260,21 @@ body, html {
       display: none;
     }
   }
+}
+
+
+#icons a {
+  display: inline-block;
+  margin: 2em;
+  width: 2vw;
+  // border: 2px solid black;
+  float: right;
+
+  &:hover {
+    color: darksalmon;
+  }
+}
+
+iframe {
+  height: 800px;
 }
