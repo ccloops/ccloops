@@ -34,7 +34,7 @@ webPackConfig.module = {
       ],
     },
     {
-      test: /\.(jpg|gif|png|svg)$/,
+      test: /\.(pdf|jpg|gif|png|svg)$/,
       exclude: /\.icon\.svg$/,
       use: [{
         loader: 'url-loader',
