@@ -18,16 +18,15 @@ class App extends React.Component {
   render() {
     return (
       <BrowserRouter>
-        <div className='app'>
-          <iframe src={Resume} frameBorder="0"></iframe>
-        
+        <div className='app'>        
           <nav>
             <ul>
-              <a href="/"><li>Home</li></a>              
-              <a href="#about"><li>About</li></a>
-              <a href="#portfolio"><li>Portfolio</li></a>
-              <a href="#skills"><li>Skills</li></a>
-              <a href="#contact"><li>Contact</li></a>
+              <a href="/"><li>home</li></a>              
+              <a href="#about"><li>about</li></a>
+              <a href="#portfolio"><li>portfolio</li></a>
+              <a href="#skills"><li>skills</li></a>
+              <a href="#contact"><li>contact</li></a>
+              <a href="#resume">resume</a>
             </ul>
           </nav>  
           <div id="img" className="parallax">        
@@ -111,6 +110,10 @@ class App extends React.Component {
               <li><a href="https://github.com/ccloops" target="blank">GitHub</a></li>
               <li><a href="https://www.linkedin.com/in/catherinelooper/" target="blank">LinkedIn</a></li>
             </ul>
+          </div>
+
+          <div id="resume">
+            <iframe src={Resume} frameBorder="0"></iframe>          
           </div>
     
           <footer>

@@ -36,7 +36,7 @@ nav {
   background-color: darkSalmon;
   position: fixed;
   top: 0;
-  padding-left: 5em;
+  padding-left: 6em;
   padding-top: 1.6em;
   margin-bottom: 10px;
   box-shadow: 10px 5px 5px rgba(10, 10, 10, 0.5);
@@ -44,7 +44,7 @@ nav {
 }
 
 nav li {
-  width: 20%;
+  width: 15%;
   display: inline-block;
   float: left;
 }
@@ -273,4 +273,8 @@ body, html {
   &:hover {
     color: darksalmon;
   }
+}
+
+iframe {
+  height: 800px;
 }
