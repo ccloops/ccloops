@@ -106,7 +106,7 @@ class App extends React.Component {
             <h2>Contact</h2>
             <hr/>
             <ul>
-              <li>Email: loopercat@gmail.com</li>
+              <li><a href="mailto:loopercat@gmail.com">loopercat@gmail.com</a></li>
               <li><a href="https://github.com/ccloops" target="blank">GitHub</a></li>
               <li><a href="https://www.linkedin.com/in/catherinelooper/" target="blank">LinkedIn</a></li>
             </ul>
