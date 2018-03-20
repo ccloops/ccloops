@@ -2,6 +2,7 @@ import './_app.scss';
 import {FaGithub, FaLinkedin} from 'react-icons/lib/fa';
 import React from 'react';
 import {BrowserRouter, Route, Link} from 'react-router-dom';
+import { Document, Page } from 'react-pdf';
 
 import Landing from '../landing';
 import Catherine from '../../assets/catherine.jpg';
@@ -10,6 +11,7 @@ import GeoJumper from '../../assets/lava-level-overview.png';
 import OhRose from '../../assets/oh-rose.png';
 import Todo from '../../assets/todo-list-overview.png';
 import QuizFellows from '../../assets/quiz-fellows.png';
+import Resume from '../../assets/resume.pdf';
 
 class App extends React.Component {
 
@@ -17,6 +19,8 @@ class App extends React.Component {
     return (
       <BrowserRouter>
         <div className='app'>
+          <iframe src={Resume} frameBorder="0"></iframe>
+        
           <nav>
             <ul>
               <a href="/"><li>Home</li></a>              

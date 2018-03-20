@@ -44,6 +44,7 @@
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-icons": "^2.2.7",
+    "react-pdf": "^3.0.1",
     "react-router-dom": "^4.2.2",
     "resolve-url-loader": "^2.2.1",
     "sass-loader": "^6.0.6",

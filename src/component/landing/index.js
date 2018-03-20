@@ -1,11 +1,12 @@
 import './_landing.scss';
 import React from 'react';
+import Resume from '../../assets/resume.pdf';
 
 class Landing extends React.Component {
   render() {
     return (
-      <div className='landing'>
-        <h1>Catherine Looper</h1>
+      <div className='resume'>
+        <iframe src={Resume} frameBorder="0"></iframe>
       </div>
     );
   }
