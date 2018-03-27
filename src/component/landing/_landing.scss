@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Audiowide');
 
+body {
+  background-image: url('../../assets/retro.jpg');
+}
+
 img {
-  max-width: 10%;
-  transform: rotate(90deg);
-  border-radius: 100px;
+  max-width: 15%;
+  border-radius: 50%;
   margin: 100px auto;
   border: 2px solid yellow;
 }

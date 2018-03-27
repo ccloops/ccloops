@@ -1,6 +1,6 @@
 import './_landing.scss';
 import React from 'react';
-import Signature from '../../assets/signature.jpg';
+import Catherine from '../../assets/author.jpg';
 
 class Landing extends React.Component {
   constructor(props) {
@@ -20,8 +20,8 @@ class Landing extends React.Component {
     console.log(this.state);
     return (
       <div> 
-        <h1 className={this.state.isBlinking ? 'toggleBlink' : null} id="blink" onClick={this.toggleBlink}>Catherine Looper</h1>
-        <img src={Signature} alt="signature" />
+        <h1 className={this.state.isBlinking ? 'toggleBlink' : null} id="blink" onClick={this.toggleBlink}>catherine looper</h1>
+        <img src={Catherine} alt="catherine" />
       </div>
     );
   }
