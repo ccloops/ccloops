@@ -1,4 +1,27 @@
-@import 'vars';
+@import url('https://fonts.googleapis.com/css?family=Audiowide');
+
+img {
+  max-width: 10%;
+  transform: rotate(90deg);
+  border-radius: 100px;
+  margin: 100px auto;
+  border: 2px solid yellow;
+}
+
+#blink {
+  font-family: 'Audiowide', cursive;
+  color: yellow;
+}
 
 
+.toggleBlink {
+  font-family: 'Audiowide', cursive;
+  color: yellow;
+  animation: blinker 1s linear infinite;
 
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
+}
