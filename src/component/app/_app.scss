@@ -93,9 +93,12 @@ a {
 
       &:hover {
         color: white;
-        // background-color: rgb(232, 152, 12);
+        -webkit-animation: fadein 2s; 
+        -moz-animation: fadein 2s; 
+         -ms-animation: fadein 2s; 
+          -o-animation: fadein 2s; 
+             animation: fadein 2s;
         transform: rotate(0deg);
-
       }
     }
   
@@ -115,7 +118,11 @@ a {
 
       &:hover {
         color: white;
-        // background-color: darkSlateGray;
+        -webkit-animation: fadein 2s; 
+        -moz-animation: fadein 2s; 
+         -ms-animation: fadein 2s; 
+          -o-animation: fadein 2s; 
+             animation: fadein 2s;
         transform: rotate(0deg);
        
       }
