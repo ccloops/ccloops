@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Righteous');
 
 body {  
-  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-  -moz-animation: fadein 2s; /* Firefox < 16 */
-   -ms-animation: fadein 2s; /* Internet Explorer */
-    -o-animation: fadein 2s; /* Opera < 12.1 */
+  -webkit-animation: fadein 2s; 
+  -moz-animation: fadein 2s; 
+   -ms-animation: fadein 2s; 
+    -o-animation: fadein 2s; 
        animation: fadein 2s;
 
        @keyframes fadein {
@@ -32,12 +32,18 @@ nav {
   margin-bottom: 10px;
   box-shadow: 10px 5px 5px rgba(10, 10, 10, 0.5);
   font-family: 'Righteous', cursive;
+  // display: flex;
+  // flex-direction: row;
+  // justify-content: flex-end;
 }
 
 nav li {
   width: 15%;
   display: inline-block;
   float: left;
+  // display: flex;
+  // flex-direction: row;
+  // justify-content: space-between;
 }
 
 #catherine-image {
@@ -79,17 +85,16 @@ a {
       font-size: 20px;
       margin-bottom: 20px;
       color: cornsilk;
-      background-color: cornsilk;
+      background-color: darkSlateGray;
       padding: 5em 0;
       text-align: center;
-      background: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); 
+      transform: rotate(45deg);
     
 
       &:hover {
         color: white;
-        background-color: darkSlateGray;
-        background: linear-gradient(to right, violet,indigo,blue,green,yellow,orange,red); 
-      
+        // background-color: rgb(232, 152, 12);
+        transform: rotate(0deg);
 
       }
     }
@@ -103,14 +108,15 @@ a {
       background-color: rgb(232, 152, 12);
       padding: 5em 0;
       text-align: center;
-      background: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); 
+      transform: rotate(45deg);
+      
       
     
 
       &:hover {
         color: white;
-        background-color: darkSlateGray;
-       background: linear-gradient(to right, violet,indigo,blue,green,yellow,orange,red); 
+        // background-color: darkSlateGray;
+        transform: rotate(0deg);
        
       }
     }
@@ -218,7 +224,10 @@ body, html {
 
 
 #icons a {
-  display: inline-block;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  // display: inline-block;
   margin: 2em;
   width: 2vw;
   float: right;
