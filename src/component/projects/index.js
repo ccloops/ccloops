@@ -5,7 +5,7 @@ import Clouds from '../../assets/cloud-level-overview.png';
 import Quiz from '../../assets/quiz-fellows.png';
 import OhRose from '../../assets/oh-rose.png';
 
-class Projects extends React.Component {
+export default class Projects extends React.Component {
   render() {
     return (
       <div>
@@ -27,4 +27,3 @@ class Projects extends React.Component {
   }
 }
 
-export default Projects;
