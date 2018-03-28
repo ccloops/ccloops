@@ -1,4 +1,4 @@
-@import '../component/app/_app.scss';
+@import '../component/landing/_landing.scss';
 
 html {
   position: relative;
@@ -10,10 +10,6 @@ html {
   body {
     position: relative;
     background-color: $color-primary;
-    // background-color: white;
-    // background-image: url('../assets/rose.jpg');
-    // background-repeat: no-repeat;
-    // background-position: center;
     background-size: 50%;
   }
 
