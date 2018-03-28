@@ -1,3 +1,4 @@
+import './_layout.scss';
 import React from 'react';
 import {Route, Switch, Redirect, BrowserRouter, Link} from 'react-router-dom';
 
