@@ -8,6 +8,11 @@
   max-width: 90%;
   border-radius: 0;
   border: none;
+  box-shadow: 5px 5px 5px #000000;
+
+  &:hover {
+    box-shadow: 2px 2px 2px yellow;
+  }
 }
 
 
