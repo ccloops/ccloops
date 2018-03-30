@@ -2,13 +2,54 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  
+  p {
+    color: yellow;
+    background-color: rgba(232, 108, 232, 0.5);
+    border-radius: 10px;
+  }
 }
 
 .projects img {
   max-width: 90%;
   border-radius: 0;
   border: none;
+  box-shadow: 5px 5px 5px #000000;
+  height: 130px;
+  position: relative;
+
+  &:hover {
+    box-shadow: 2px 2px 2px yellow;
+  }
 }
+
+.projects h3 {
+  position: absolute;
+}
+
+
+// .portfolio-containers img {
+//     height: 200px; 
+//     position: relative;  
+  
+//   p {
+//     display: none;
+//   }
+
+//   &:active {
+//     p {
+//       display: inline-block;
+      
+//     }
+//     img {
+//       display: none;
+//     }
+//   }
+// }
+
+// .portfolio-containers li {
+//   position: absolute;
+// }
 
 
 // .circle-container {
