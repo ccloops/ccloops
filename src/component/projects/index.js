@@ -37,7 +37,7 @@ export default class Projects extends React.Component {
           <h3>Trendly</h3>
         </a>
 
-        <a target='blank' href='https://github.com/ccloops/28-todo-app/tree/master/lab-catherine' className='portfolio-containers'>
+        <a target='blank' href='https://catherine-todo.herokuapp.com/' className='portfolio-containers'>
           <img src={Todo} alt='Todo List'/>
           <p>In this project, I built a frontend Todo List application containing a Home Page with a brief description about the application, and a Dashboard page where users can create their own Todo List. To create a Todo List, users can enter a note title and description and click Submit New Note. Users also have the ability to remove any of their created notes by clicking the Delete button next to the note they would like to remove.</p>
           <h3>To Do List</h3>
