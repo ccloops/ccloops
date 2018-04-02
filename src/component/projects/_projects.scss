@@ -3,6 +3,12 @@
   flex-direction: row;
   justify-content: space-around;
 
+  h3 {
+    display: block;
+    max-width: 70%;
+    text-align: center;
+  }
+
   img {
     max-width: 70%;
     border-radius: 0;
@@ -12,6 +18,13 @@
   
     &:hover {
       box-shadow: 2px 2px 2px yellow;
+      max-width: 90%;
+
+      h3 {
+        display: block;
+        max-width: 70%;
+        text-align: center;
+      }
     }
   }
   
@@ -24,63 +37,76 @@
     margin-right: 10px;
     display: none;
   }
-  
-  // h3 {
-  //   width: 30px;
-  //   display: none;
-  // }
+
+  a {
+    display: none;
+  }
 }
 
-
-
-
-div.toggleModal img {
-  z-index: 9999;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  height: auto;
-  max-height: 35em;
-  max-width: 35em;
-  transform: translate(-50%, -50%);
-  
-
-  animation-name: fadein;
-  animation-duration: .5s;
-  animation-timing-function: ease;
- 
- @-webkit-keyframes fadein {
-  0% {opacity: 0;}
-  
-  100% {opacity: 1;}
- }
-}
 
 div.toggleModal {
-  width: 100%;
-  background-color: rgba(19, 18, 18, 0.5);
-  
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  text-align: center;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 5;
+
+
+  img {
+    z-index: 9999;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    animation-name: fadein;
+    animation-duration: .5s;
+    animation-timing-function: ease;
+
+    @-webkit-keyframes fadein {
+      0% {opacity: 0;}
+
+      100% {opacity: 1;}
+    }
+
+    &:hover {
+      max-width: 70%;
+    }
+  }
+
+  p {
+    color: black;
+    background-color: rgb(240, 240, 119);
+    border-radius: 0;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 2em;
+  }
+
+  a {
+    display: block;
+    text-decoration: none;
+    color: yellow;
+    background-color: lightpink;
+    padding: 10px;
+    width: 100px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+
+    &:hover {
+      background-color: rgb(223, 68, 96);
+    }
+  }
+
+  h3 {
+    display: none;
+  }
 }
-
-
-  
-
-
-// #full-prod-img svg {
-//   position: absolute;
-//   top: 1em;
-//   right: 2em;
-//   font-size:3em;
-//   color: white;
-// }
-
-// .fade-in {
-//  animation-name: fadein;
-//  animation-duration: .5s;
-//  animation-timing-function: ease;
-// }
-// @-webkit-keyframes fadein {
-//  0% {opacity: 0;}
- 
-//  100% {opacity: 1;}
-// }
