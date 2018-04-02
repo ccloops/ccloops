@@ -15,15 +15,15 @@
     }
   }
   
-  // p {
-  //   color: yellow;
-  //   background-color: rgba(232, 108, 232, 0.5);
-  //   border-radius: 10px;
-  //   padding: 10px;
-  //   margin-left: 10px;
-  //   margin-right: 10px;
-  //   // display: none;
-  // }
+  p {
+    color: yellow;
+    background-color: rgba(232, 108, 232, 0.5);
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: none;
+  }
   
   // h3 {
   //   width: 30px;
@@ -31,16 +31,11 @@
   // }
 }
 
-.toggleModal img {
-  z-index: 9999;
-  max-width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
+
+
 
 div.toggleModal img {
+  z-index: 9999;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -48,7 +43,7 @@ div.toggleModal img {
   max-height: 35em;
   max-width: 35em;
   transform: translate(-50%, -50%);
-
+  
 
   animation-name: fadein;
   animation-duration: .5s;
@@ -60,6 +55,16 @@ div.toggleModal img {
   100% {opacity: 1;}
  }
 }
+
+div.toggleModal {
+  width: 100%;
+  background-color: rgba(19, 18, 18, 0.5);
+  
+}
+
+
+  
+
 
 // #full-prod-img svg {
 //   position: absolute;
