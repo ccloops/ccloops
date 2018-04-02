@@ -2,6 +2,19 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+
+  img {
+    // max-width: 15%;
+    border-radius: 0;
+    border: none;
+    box-shadow: 5px 5px 5px #000000;
+    height: 130px;
+    position: relative;
+  
+    &:hover {
+      box-shadow: 2px 2px 2px yellow;
+    }
+  }
   
   p {
     color: yellow;
@@ -12,24 +25,20 @@
     margin-right: 10px;
     // display: none;
   }
-}
-
-.projects img {
-  max-width: 15%;
-  border-radius: 0;
-  border: none;
-  box-shadow: 5px 5px 5px #000000;
-  height: 130px;
-  position: relative;
-
-  &:hover {
-    box-shadow: 2px 2px 2px yellow;
+  
+  h3 {
+    width: 30px;
+    display: none;
   }
 }
 
-.projects h3 {
-  width: 30px;
-  display: none;
+
+
+.toggleModal img {
+  z-index: 9999;
+  max-width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
-
-
