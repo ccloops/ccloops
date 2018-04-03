@@ -10,9 +10,19 @@ hr {
 }
 
 #about {
+  -webkit-animation: fadein 2s; 
+  -moz-animation: fadein 2s; 
+   -ms-animation: fadein 2s; 
+    -o-animation: fadein 2s; 
+       animation: fadein 2s;
+
+       @keyframes fadein {
+        from { opacity: 0; }
+        to   { opacity: 1; }
+    }
+
   font-size: 25px;  
   font-family: Baskerville;
-  border: 2px solid black;
   background-color: rgba(255, 255, 255, 0.9);
   color: rgb(58, 143, 169);
   padding: 5em;
@@ -21,7 +31,16 @@ hr {
 
 #skills {
 
-  margin: 0 auto;
+  // ul {
+  //   display: flex;
+  //   flex-direction: row;
+  //   align-content: center;
+  // }
+
+  ul {
+    width: 100%;
+    margin: 0 auto;
+  }
 
   a:nth-child(even) {
   float: left;
@@ -33,7 +52,6 @@ hr {
   padding: 5em 0;
   text-align: center;
   transform: rotate(45deg);
-  margin: 0 auto;
   
     &:hover {
       color: white;
