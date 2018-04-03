@@ -45,6 +45,7 @@
     "node-sass": "^4.7.2",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
+    "react-helmet": "^5.2.0",
     "react-icons": "^2.2.7",
     "react-pdf": "^3.0.1",
     "react-router-dom": "^4.2.2",

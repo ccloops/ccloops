@@ -13,7 +13,8 @@ nav li {
 
 li .nav {
   text-decoration: none;
-  color: yellow;
+  // color: yellow;
+  color: black;
   font-size: 2em;
 
   &:hover {
@@ -24,4 +25,24 @@ li .nav {
   &:active {
     transform: translateY(1px);
   }
+}
+
+footer {
+  width: 100%;
+  padding: 2em;
+  clear: both;
+}
+
+footer h3 {
+  width: 100%;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 2em;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+  position: fixed;
+  bottom: 0;
 }

@@ -3,6 +3,17 @@
   flex-direction: row;
   justify-content: space-around;
 
+  -webkit-animation: fadein 2s; 
+  -moz-animation: fadein 2s; 
+   -ms-animation: fadein 2s; 
+    -o-animation: fadein 2s; 
+       animation: fadein 2s;
+
+       @keyframes fadein {
+        from { opacity: 0; }
+        to   { opacity: 1; }
+    }
+
   h3 {
     display: block;
     max-width: 70%;
@@ -17,7 +28,6 @@
     position: relative;
   
     &:hover {
-      box-shadow: 2px 2px 2px yellow;
       max-width: 90%;
 
       h3 {

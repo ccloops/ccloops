@@ -1,6 +1,7 @@
 import './_layout.scss';
 import React from 'react';
 import {Route, Switch, Redirect, BrowserRouter, Link} from 'react-router-dom';
+import {Helmet} from 'react-helmet';
 
 import Landing from '../landing';
 import Projects from '../projects';
@@ -12,6 +13,11 @@ export default class Layout extends React.Component {
     return(
       <BrowserRouter>
         <div>
+          <Helmet>
+            <meta charSet="utf-8" />
+            <link rel="icon" type="image/x-icon" href='../../assets/favicon.ico' />            
+            <title>loops</title>
+          </Helmet>
           <nav>
             <ul>
               <li><Link to='/home' className='nav'>home</Link></li>
@@ -26,6 +32,10 @@ export default class Layout extends React.Component {
             <Route path='/resume' component={Resume}/>
             <Route path='/' component={Landing}/>
           </Switch>
+
+          <footer>
+            <a href="/"><h3> © Catherine Looper 2018</h3></a>
+          </footer>
         </div>
       </BrowserRouter>
     );
