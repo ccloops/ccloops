@@ -17,7 +17,7 @@ export default class Layout extends React.Component {
             <meta charSet="utf-8" />
             <meta property="og:title" content="Catherine Looper" />
             <meta property="og:image" content="../../assets/author.jpg" />
-            <link rel="icon" type="image/x-icon" href='../../assets/favicon.ico' />            
+            <link rel="shortcut icon" type="image/png" href="https://www.stickersmalin.com/images/ajoute/prd/107/107989-image2_448x448.png" />           
             <title>loops</title>
           </Helmet>
           <nav>
