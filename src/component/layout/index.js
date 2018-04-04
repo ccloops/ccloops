@@ -36,10 +36,6 @@ export default class Layout extends React.Component {
             <Route path='/resume' component={Resume}/>
             <Route path='/' component={Landing}/>
           </Switch>
-
-          <footer>
-            <a href="/"><h3> © Catherine Looper 2018</h3></a>
-          </footer>
         </div>
       </BrowserRouter>
     );

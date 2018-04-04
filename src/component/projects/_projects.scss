@@ -120,3 +120,23 @@ div.toggleModal {
     display: none;
   }
 }
+
+footer {
+  width: 100%;
+  padding: 2em;
+  clear: both;
+}
+
+footer h3 {
+  width: 100%;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 2em;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+  position: fixed;
+  bottom: 0;
+}
