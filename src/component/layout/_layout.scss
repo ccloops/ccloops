@@ -2,7 +2,45 @@ nav li {
   display: none;
 }
 
+#hamburger {
+  display: block;
+  width: 80px;
+
+  &:hover {
+    color: pink;
+  }
+}
+
+.toggleHamburger {
+
+  .links {
+    display: inline-block;
+    text-decoration: none;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+    background-color: lightblue;
+    padding: 10px;
+    border-bottom: 2px solid black;
+    width: 100%;
+    
+    &:hover {
+      background-color: pink;
+    }
+  }
+
+  #first {
+    border-top: 2px solid black;
+  }
+}
+
 @media only screen and (min-width: 640px) {
+
+  #hamburger {
+    display: none;
+  }
 
   nav {
     width: 100%;
@@ -21,6 +59,8 @@ nav li {
     text-decoration: none;
     color: black;
     font-size: 2em;
+    background-color: white;
+    border: none;
   
     &:hover {
       color: rgb(240, 151, 17);
@@ -30,5 +70,9 @@ nav li {
     &:active {
       transform: translateY(1px);
     }
+  }
+
+  #first {
+    border: none;
   }
 }
