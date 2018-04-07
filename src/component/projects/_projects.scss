@@ -55,54 +55,33 @@
       background: rgba(0, 0, 0, 0.7);
       z-index: 5;
   
-  
       img {
-        z-index: 9999;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-  
-        animation-name: fadein;
-        animation-duration: .5s;
-        animation-timing-function: ease;
-  
-        @-webkit-keyframes fadein {
-          0% {opacity: 0;}
-  
-          100% {opacity: 1;}
-        }
-  
-        &:hover {
-          max-width: 70%;
-        }
+        display: none;
       }
   
       p {
         color: black;
-        background-color: rgb(240, 240, 119);
+        background-color: pink;
         border-radius: 0;
-        padding: 10px;
-        margin-left: 10px;
-        margin-right: 10px;
+        padding: 70px 50px;
+        margin-left: 5px;
+        margin-right: 5px;
         display: block;
         width: 70%;
         margin: 0 auto;
-        margin-top: 2em;
+        margin-top: 5em;
       }
   
       a {
         display: block;
         text-decoration: none;
-        color: yellow;
+        color: black;
         background-color: lightpink;
         padding: 10px;
-        width: 100px;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        right: 0;
-  
+        width: 70%;
+        margin: 0 auto;
+        margin-top: 3em;
+
         &:hover {
           background-color: rgb(223, 68, 96);
         }
@@ -139,10 +118,7 @@
       background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0)); 
       margin: 20px 0px;
     }
-  
 }
-
-
 
 @media only screen and (min-width: 640px) {
 
