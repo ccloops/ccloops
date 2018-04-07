@@ -28,6 +28,7 @@ export default class Layout extends React.Component {
         <div>
           <Helmet>
             <meta charSet="utf-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
             <meta property="og:title" content="Catherine Looper" />
             <meta property="og:image" content="https://s3-us-west-2.amazonaws.com/cloopercatpic/c7f5a7c8e7da315a8bcadc410ae73a1d.mooshy.jpg" />
             <meta property="og:description" 
