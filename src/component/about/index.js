@@ -24,6 +24,8 @@ export default class About extends React.Component {
             <a href="https://sass-lang.com/" target="blank"><li>SASS</li></a>
             <a href="https://jquery.com/" target="blank"><li>jQuery</li></a>
             <a href="https://www.postgresql.org/" target="blank"><li>PostgreSQL</li></a>
+            <a href="https://developer.apple.com/swift/" target="blank"><li>Swift</li></a>
+            <a href="https://reactjs.org/"><li>React</li></a>
           </ul>
         </div>
       </div>
