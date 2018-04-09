@@ -1,13 +1,22 @@
 # Catherine Looper - Welcome To Me!
 
+## Deployed Site: http://www.catherinelooper.com/ 
+
 JavaScript Developer, MERN Stack with background in customer service, inventory management, and database querying. Passionate about solution-driven development with a focus in creative and innovative customer-minded applications.
+
+## Projects Included
+
+* GeoJumper
+* Quiz Fellows
+* Oh, Rose
+* Trendly
+* Todo List Application
 
 ## Tech/Framework Used
 
 * JavaScript / ES6
 * Node.js
 * eslint
-* redux-devtools-extension
 * babel-core
 * babel-loader
 * babel-plugin-transform-object-rest-spread
