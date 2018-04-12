@@ -23,8 +23,8 @@ export default class Landing extends React.Component {
     return (
       <div> 
         <h1 className={this.state.isBlinking ? 'toggleBlink' : ''} id="blink" onClick={this.toggleBlink}>catherine looper</h1>
-        <img id='catherine-photo' src={Catherine} alt="catherine" />
-
+        <div id="yin"></div>
+        
         <footer>
           <a href="/"><h3> © Catherine Looper 2018</h3></a>
         </footer>
@@ -32,4 +32,6 @@ export default class Landing extends React.Component {
     );
   }
 }
-
+  
+  
+// <img id='catherine-photo' src={Catherine} alt="catherine" />

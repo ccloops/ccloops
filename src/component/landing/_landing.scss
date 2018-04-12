@@ -14,7 +14,10 @@ body {
   // background-image: url('../../assets/retro.jpg');
   font-family: 'Audiowide', cursive;
   color: black;
-  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
 }
 
 img {
@@ -121,5 +124,32 @@ footer a {
     bottom: 0;
   }
 }
+
+#yin {
+  display: flex;
+  align-items: center;
+  width: 40vmin; 
+  height: 40vmin;
+  border-radius: 50%;
+  background: linear-gradient(black 50%, rgb(205, 149, 149) 0);
+  margin: 0 auto;
+}  
+
+#yin:before, #yin:after {
+  flex: 1;
+  border: solid 40vmin/6 rgb(205, 149, 149);
+  height: 50%;
+  box-sizing: border-box;
+  border-radius: 50%;
+  background: black;
+  content: ''
+}
+  
+#yin:after {
+  border-color: black;
+  background: rgb(205, 149, 149);
+}
+
+
 
 
