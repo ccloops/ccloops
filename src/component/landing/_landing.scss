@@ -1,3 +1,4 @@
+@import 'vars';
 @import url('https://fonts.googleapis.com/css?family=Audiowide');
 
 body {
@@ -12,7 +13,8 @@ body {
         to   { opacity: 1; }
     }
   // background-image: url('../../assets/retro.jpg');
-  font-family: 'Audiowide', cursive;
+  // font-family: 'Audiowide', cursive;
+  font-family: 'Comfortaa', cursive;
   color: black;
   display: flex;
   align-items: center;
