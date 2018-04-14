@@ -159,7 +159,10 @@ footer a {
   animation-delay: -1s;
 }
 
-@keyframes s { to { transform: scale(2 - .5) } }
+@keyframes s { to { 
+  transform: scale(2 - .5);
+  background-color: rgb(244, 238, 238);
+} }
 
 
 
