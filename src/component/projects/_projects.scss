@@ -33,7 +33,6 @@
     }
 
     p {
-      color: yellow;
       background-color: rgba(232, 108, 232, 0.5);
       border-radius: 10px;
       padding: 10px;
@@ -75,15 +74,15 @@
       a {
         display: block;
         text-decoration: none;
-        color: black;
-        background-color: lightpink;
-        padding: 10px;
+        color: white;
+        background-color: rgb(223, 68, 96);
+        padding: 20px;
         width: 70%;
         margin: 0 auto;
-        margin-top: 3em;
+        margin-top: 2em;
 
         &:hover {
-          background-color: rgb(223, 68, 96);
+          background-color: lightPink;
         }
       }
   
