@@ -19,9 +19,6 @@ export default class Landing extends React.Component {
   }
 
   render() {
-    console.log(this.state);
-    console.log('%c whats up Jeff', 'color: orange');
-    
     return (
       <div> 
         <h1 className={this.state.isBlinking ? 'toggleBlink' : ''} id="blink" onClick={this.toggleBlink}>catherine looper</h1>
@@ -36,4 +33,3 @@ export default class Landing extends React.Component {
 }
   
   
-// <img id='catherine-photo' src={Catherine} alt="catherine" />

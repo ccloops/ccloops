@@ -14,18 +14,31 @@ export default class App extends React.Component {
     super(props);
     this.state = {
       menuClicked: false,
+      backgroundColor: '',
     };
 
     this.toggleHamburger = this.toggleHamburger.bind(this);
+    this.toggleBackgroundColor = this.toggleBackgroundColor.bind(this);
   }
 
   toggleHamburger() {
     this.setState({menuClicked: !this.state.menuClicked});
   }
+
+  toggleBackgroundColor() {
+    let r = Math.floor(Math.random() * 255);
+    let g = Math.floor(Math.random() * 255);
+    let b = Math.floor(Math.random() * 255);
+
+    let colorToDisplay = `rgb(${r}, ${g}, ${b})`;
+    this.setState({backgroundColor: colorToDisplay});
+  }
+
   render() {
+    console.log(this.state);
     return(
       <BrowserRouter>
-        <div>
+        <div style={{backgroundColor: this.state.backgroundColor}}>
           <Helmet>
             <meta charSet="utf-8" />
             <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -36,7 +49,7 @@ export default class App extends React.Component {
             <link rel="shortcut icon" type="image/png" href="https://www.stickersmalin.com/images/ajoute/prd/107/107989-image2_448x448.png" />           
             <title>loops</title>
           </Helmet>
-          <nav className={this.state.menuClicked ? 'toggleHamburger' : ''}>
+          <nav onClick={this.toggleBackgroundColor} className={this.state.menuClicked ? 'toggleHamburger' : ''} >
             <ul>
               <li onClick={this.toggleHamburger} id='hamburger'><FaBars/></li>
               <li id='first' className='links'><Link to='/home' className='nav'>home</Link></li>
