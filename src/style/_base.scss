@@ -1,19 +1,22 @@
-@import '../component/landing/_landing.scss';
-
-html {
+html, body {
   position: relative;
-  head, link, script {
-    display: none;
-    text-decoration: none;
-  }
-
-  body {
-    position: relative;
-    width: 100%;
-    height: 100%;
-  }
-
-  span, em, strong, i {
-    display: inline;
-  }
+  width: 100%;
+  height: 100%;
 }
+
+
+head, link, script {
+  display: none;
+  text-decoration: none;
+}
+
+body {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+span, em, strong, i {
+  display: inline;
+}
+

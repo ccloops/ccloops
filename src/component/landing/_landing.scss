@@ -1,6 +1,4 @@
 @import 'vars';
-// @import url('https://fonts.googleapis.com/css?family=Audiowide');
-// @import url('https://fonts.googleapis.com/css?family=Comfortaa|Roboto');
 
 body {
   -webkit-animation: fadein 2s; 
@@ -13,14 +11,8 @@ body {
         from { opacity: 0; }
         to   { opacity: 1; }
     }
-  // background-image: url('../../assets/retro.jpg');
-  // font-family: 'Audiowide', cursive;
-  // font-family: 'Comfortaa', cursive;
-  font-family: $font-main;
-  color: black;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+
+    height: 100%;
 }
 
 img {
@@ -65,7 +57,7 @@ footer a {
 }
 
 @media only screen and (min-width: 640px) {
-  body {
+  html, body {
     -webkit-animation: fadein 2s; 
     -moz-animation: fadein 2s; 
     -ms-animation: fadein 2s; 
@@ -78,6 +70,7 @@ footer a {
       }
     color: black;
     background-color: white;
+    height: 100%;
   }
 
   img {
