@@ -98,6 +98,12 @@ hr {
     margin: 0 auto;
   }
 
+  img {
+    margin: 10px;
+    border-radius: none;
+    float: left;
+  }
+
   #skills {
 
     ul {
@@ -112,7 +118,7 @@ hr {
     margin-bottom: 20px;
     color: cornsilk;
     background-color: darkSlateGray;
-    padding: 5em 0;
+    padding: 6em 0;
     text-align: center;
     transform: rotate(45deg);
     
@@ -134,7 +140,7 @@ hr {
       margin-bottom: 20px;
       color: cornsilk;
       background-color: rgb(232, 152, 12);
-      padding: 5em 0;
+      padding: 6em 0;
       text-align: center;
       transform: rotate(45deg);      
         

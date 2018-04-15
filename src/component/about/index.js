@@ -1,12 +1,16 @@
 import './_about.scss';
 import React from 'react';
 
+import Catherine from '../../assets/author.jpg';
+import otherCatherine from '../../assets/catherine.jpg';
+
 export default class About extends React.Component {
   render() {
     return(
       <div id='about'>
         <h2>About Me</h2>
         <hr/>
+        <img src={Catherine}/>
         <p>JavaScript Developer, MERN Stack with background in customer service, inventory management, and database querying. Passionate about solution-driven development with a focus in creative and innovative customer-minded applications.
         
         In my free time, I enjoy creating photo and video projects for local musicians, attending Seattle JS Hackers Meetups and tinkering with web design.</p>
