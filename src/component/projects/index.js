@@ -43,7 +43,6 @@ export default class Projects extends React.Component {
     this.setState({isExpanded5: !this.state.isExpanded5});
   }
   render() {
-    console.log(this.state);
     return (
       <div className='projects'>
         <div className={this.state.isExpanded1 ? 'toggleModal' : ''} onClick={this.toggleModal1}>

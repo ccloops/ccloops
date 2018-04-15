@@ -28,7 +28,6 @@ h1 {
   margin-top: 1em;
 }
 
-
 .toggleBlink {
   animation: blinker 1s linear infinite;
 
@@ -85,6 +84,9 @@ footer a {
     font-style: italic;
     margin: 0 auto;
     margin-top: 1em;
+    color: black;
+
+    text-shadow: 0 0 50px #FFFFFF;
   }
 
 
