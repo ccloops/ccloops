@@ -35,6 +35,7 @@ export default class App extends React.Component {
   }
 
   render() {
+    console.log(this.state);
     return(
       <BrowserRouter>
         <div style={{backgroundColor: this.state.backgroundColor}}>
@@ -45,7 +46,8 @@ export default class App extends React.Component {
             <meta property="og:image" content="https://s3-us-west-2.amazonaws.com/cloopercatpic/c7f5a7c8e7da315a8bcadc410ae73a1d.mooshy.jpg" />
             <meta property="og:description" 
               content="Catherine Looper - collection of weird." />
-            <link rel="shortcut icon" type="image/png" href="https://www.stickersmalin.com/images/ajoute/prd/107/107989-image2_448x448.png" />           
+            <link rel="shortcut icon" type="image/png" href="https://www.stickersmalin.com/images/ajoute/prd/107/107989-image2_448x448.png"/>
+            <link rel="shortcut icon" type="image/png" href="../../assets/cclogo.png" />           
             <title>loops</title>
           </Helmet>
           <nav onClick={this.toggleBackgroundColor} className={this.state.menuClicked ? 'toggleHamburger' : ''} >

@@ -40,6 +40,15 @@ nav li {
   }
 }
 
+#logo {
+  float: none;
+  margin: 0 auto;
+  max-width: 40%;
+  border: 2px solid;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
 @media only screen and (min-width: 640px) {
 
   div {
@@ -82,4 +91,14 @@ nav li {
   #first {
     border-top: none;
   }
+}
+
+
+#logo {
+  float: none;
+  margin: 0 auto;
+  max-width: 40%;
+  border: 2px solid;
+  border-radius: none;
+  margin-top: 3em;
 }

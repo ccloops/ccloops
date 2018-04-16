@@ -2,6 +2,7 @@ import './_landing.scss';
 import React from 'react';
 
 import Catherine from '../../assets/author.jpg';
+import BusinessCard from '../../assets/cclogo.png';
 
 
 export default class Landing extends React.Component {
@@ -17,12 +18,13 @@ export default class Landing extends React.Component {
   toggleBlink() {
     this.setState({isBlinking: !this.state.isBlinking});  
   }
+  // <div id="yin"></div>
 
   render() {
     return (
       <div> 
         <h1 className={this.state.isBlinking ? 'toggleBlink' : ''} id="blink" onClick={this.toggleBlink}>catherine looper</h1>
-        <div id="yin"></div>
+        <img id="logo" src={BusinessCard} />
         
         <footer>
           <a href="/"><h3> © Catherine Looper 2018</h3></a>

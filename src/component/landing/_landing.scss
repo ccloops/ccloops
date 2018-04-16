@@ -69,12 +69,12 @@ footer h3 {
   }
 
   div {
-    height: 100%;
+    height: auto;
   }
 
   img {
     max-width: 15%;
-    border-radius: 50%;
+    // border-radius: 50%;
     margin: 100px auto;
   }
 
@@ -103,8 +103,9 @@ footer h3 {
 
   footer {
     width: 100%;
-    margin-top: 10em;
+    margin-top: 3em;
     clear: both;
+    padding: 3em;
   }
 
   footer h3 {
