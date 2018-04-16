@@ -12,7 +12,6 @@ body {
         to   { opacity: 1; }
     }
 
-    height: 100%;
 }
 
 img {
@@ -22,10 +21,11 @@ img {
 
 h1 {
   text-align: center;
-  font-size: 1.5em;
+  font-size: 3em;
   font-style: italic;
   margin: 0 auto;
   margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 .toggleBlink {
@@ -40,19 +40,16 @@ h1 {
 
 footer {
   width: 100%;
-  padding: 2em;
   clear: both;
+
 }
 
 footer h3 {
   width: 100%;
-  text-align: center;
-}
-
-footer a {
   text-decoration: none;
-  color: black;
-  bottom: 0;
+  color: white;
+  margin-top: 3em;
+  text-align: center;
 }
 
 @media only screen and (min-width: 640px) {
@@ -69,6 +66,9 @@ footer a {
       }
     color: black;
     background-color: white;
+  }
+
+  div {
     height: 100%;
   }
 
@@ -84,6 +84,7 @@ footer a {
     font-style: italic;
     margin: 0 auto;
     margin-top: 1em;
+    margin-bottom: 0.1em;
     color: black;
 
     text-shadow: 0 0 50px #FFFFFF;
@@ -102,23 +103,14 @@ footer a {
 
   footer {
     width: 100%;
-    padding: 2em;
+    margin-top: 10em;
     clear: both;
   }
 
   footer h3 {
     width: 100%;
     text-align: center;
-    margin-top: 0;
-    margin-bottom: 2em;
     color: white;
-  }
-
-  footer a {
-    text-decoration: none;
-    color: white;
-    position: fixed;
-    bottom: 0;
   }
 }
 
