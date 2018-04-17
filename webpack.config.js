@@ -1,7 +1,9 @@
 'use strict';
 
+const { DefinePlugin } = require('webpack');
 const HTMLPlugin = require('html-webpack-plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
+const UglifyPlugin = require('uglifyjs-webpack-plugin');
 
 const webPackConfig = module.exports = {};
 
@@ -12,10 +14,20 @@ webPackConfig.output = {
 };
 
 webPackConfig.plugins = [
-  new HTMLPlugin(),
+  new HTMLPlugin({ title: 'loops' }),
   new ExtractTextPlugin({
     filename: 'bundle[hash].css',
     disable: process.env.NODE_ENV !== 'production',
+  }),
+  new DefinePlugin({
+    'process.env.NODE_ENV': JSON.stringify('production'),
+  }),
+  new UglifyPlugin({
+    uglifyOptions: {
+      compress: {
+        dead_code: true,
+      },
+    },
   }),
 ];
 

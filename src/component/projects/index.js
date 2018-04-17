@@ -6,7 +6,6 @@ import Quiz from '../../assets/quiz-fellows.png';
 import OhRose from '../../assets/oh-rose.png';
 import Trendly from '../../assets/Trendly-flowchart.png';
 import Todo from '../../assets/todo-list-overview.png';
-import GeoJumper from '../../assets/lava-level-overview.png';
 
 
 export default class Projects extends React.Component {
