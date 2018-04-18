@@ -2,7 +2,6 @@ import './_about.scss';
 import React from 'react';
 
 import Catherine from '../../assets/author.jpg';
-import otherCatherine from '../../assets/catherine.jpg';
 
 export default class About extends React.Component {
   render() {
