@@ -1,8 +1,12 @@
 # Catherine Looper - Portfolio
 
-## Deployed Site: http://www.catherinelooper.com/ 
+## Deployed Site: http://www.catherinelooper.com/
 
-JavaScript Developer, MERN Stack with background in customer service, inventory management, and database querying. Passionate about solution-driven development with a focus in creative and innovative customer-minded applications.
+## LinkedIn:
+
+https://www.linkedin.com/in/catherinelooper/ 
+
+* JavaScript Developer, MERN Stack with background in customer service, inventory management, and database querying. Passionate about solution-driven development with a focus in creative and innovative customer-minded applications.
 
 ## Showcased Projects:
 
