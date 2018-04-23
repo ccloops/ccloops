@@ -1,6 +1,7 @@
 # Catherine Looper - Portfolio
 
-## Deployed Site: http://www.catherinelooper.com/
+## Deployed Site: 
+http://www.catherinelooper.com/
 
 ## LinkedIn:
 
