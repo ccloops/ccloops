@@ -20,15 +20,9 @@ webPackConfig.plugins = [
     disable: process.env.NODE_ENV !== 'production',
   }),
   new DefinePlugin({
-    'process.env.NODE_ENV': JSON.stringify('production'),
+    __NODE_ENV__ : JSON.stringify('production'),
   }),
-  new UglifyPlugin({
-    uglifyOptions: {
-      compress: {
-        dead_code: true,
-      },
-    },
-  }),
+
 ];
 
 webPackConfig.module = {
@@ -81,8 +75,23 @@ webPackConfig.module = {
   ],
 };
 
-webPackConfig.devtool = 'eval-source-map';
+if(process.env.NODE_ENV !== 'production') { 
 
-webPackConfig.devServer = {
-  historyApiFallback: true,
-};
+  webPackConfig.devtool = 'eval-source-map';
+
+  webPackConfig.devServer = {
+    historyApiFallback: true,
+  };
+}
+
+if(process.env.NODE_ENV === 'production') {
+  webPackConfig.plugins.push(
+    new UglifyPlugin({
+      uglifyOptions: {
+        compress: {
+          dead_code: true,
+        },
+      },
+    })
+  );
+}

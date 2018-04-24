@@ -6,9 +6,8 @@
   "scripts": {
     "test": "jest -i --coverage",
     "watch": "webpack-dev-server --inline --hot",
-    "build": "webpack -p",
-    "start": "node index.js",
-    "heroku-postbuild": "webpack"
+    "build": "webpack",
+    "start": "export NODE_ENV=production && node index.js"
   },
   "repository": {
     "type": "git",
