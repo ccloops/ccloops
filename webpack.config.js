@@ -1,47 +1,50 @@
 'use strict';
 
-const { DefinePlugin } = require('webpack');
+require('dotenv').config();
 const HTMLPlugin = require('html-webpack-plugin');
-const ExtractTextPlugin = require('extract-text-webpack-plugin');
+const CleanPlugin = require('clean-webpack-plugin');
 const UglifyPlugin = require('uglifyjs-webpack-plugin');
+const { DefinePlugin, EnvironmentPlugin } = require('webpack');
+const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
-const webPackConfig = module.exports = {};
+const webpackConfig = module.exports = {};
 
-webPackConfig.entry = `${__dirname}/src/main.js`;
-webPackConfig.output = {
-  filename : 'bundle.[hash].js',
-  path : `${__dirname}/build`,
-};
+const PRODUCTION = process.env.NODE_ENV === 'production';
 
-webPackConfig.plugins = [
-  new HTMLPlugin({ title: 'loops' }),
-  new ExtractTextPlugin({
-    filename: 'bundle[hash].css',
-    disable: process.env.NODE_ENV !== 'production',
+webpackConfig.entry = `${__dirname}/src/main.js`;
+
+webpackConfig.output = {
+  filename: 'bundle.[hash].js',
+  path: `${__dirname}/build`,
+  publicPath: process.env.CDN_URL,
+};  
+
+webpackConfig.plugins = [
+  new HTMLPlugin({
+    title: 'Seth Donohue',
+    template: 'src/assets/index-template.html',
   }),
+  new EnvironmentPlugin(['NODE_ENV']),
   new DefinePlugin({
-    __NODE_ENV__ : JSON.stringify('production'),
+    API_URL: JSON.stringify(process.env.API_URL),
   }),
-
+  new ExtractTextPlugin({
+    filename: 'bundle.[hash].css',
+    disable: !PRODUCTION,
+  }),
 ];
 
-webPackConfig.module = {
+if (PRODUCTION) {
+  webpackConfig.plugins = webpackConfig.plugins.concat([
+    new UglifyPlugin(),
+    new CleanPlugin(['build']),
+  ]);
+}
+
+webpackConfig.module = {
   rules: [
     {
-      test: /\.(woff|woff2|ttf|eot).*/,
-      use: [
-        {
-          loader: 'url-loader',
-          options: {
-            limit: 10000,
-            name: 'font/[name].[hash].[ext]',
-          },
-        },
-      ],
-    },
-    {
-      test: /\.(pdf|jpg|gif|png|svg)$/,
-      exclude: /\.icon\.svg$/,
+      test: /\.(jpg|gif|png|svg)$/,
       use: [{
         loader: 'url-loader',
         options: {
@@ -56,7 +59,7 @@ webPackConfig.module = {
       loader: 'babel-loader',
     },
     {
-      test:  /\.scss$/,
+      test: /\.scss$/,
       loader: ExtractTextPlugin.extract({
         fallback: 'style-loader',
         use: [
@@ -75,23 +78,8 @@ webPackConfig.module = {
   ],
 };
 
-if(process.env.NODE_ENV !== 'production') { 
+webpackConfig.devtool = PRODUCTION ? undefined : 'eval-source-map';
 
-  webPackConfig.devtool = 'eval-source-map';
-
-  webPackConfig.devServer = {
-    historyApiFallback: true,
-  };
-}
-
-if(process.env.NODE_ENV === 'production') {
-  webPackConfig.plugins.push(
-    new UglifyPlugin({
-      uglifyOptions: {
-        compress: {
-          dead_code: true,
-        },
-      },
-    })
-  );
-}
+webpackConfig.devServer = {
+  historyApiFallback: true,
+};
