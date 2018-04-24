@@ -22,7 +22,7 @@ webpackConfig.output = {
 webpackConfig.plugins = [
   new HTMLPlugin({
     title: 'loops',
-    template: 'src/assets/index.html',
+    // template: 'src/assets/index.html',
   }),
   new EnvironmentPlugin(['NODE_ENV']),
   new DefinePlugin({
@@ -44,7 +44,7 @@ if (PRODUCTION) {
 webpackConfig.module = {
   rules: [
     {
-      test: /\.(jpg|gif|png|svg)$/,
+      test: /\.(pdf|jpg|gif|png|svg)$/,
       use: [{
         loader: 'url-loader',
         options: {
