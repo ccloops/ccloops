@@ -22,7 +22,6 @@ webpackConfig.output = {
 webpackConfig.plugins = [
   new HTMLPlugin({
     title: 'loops',
-    // template: 'src/assets/index.html',
   }),
   new EnvironmentPlugin(['NODE_ENV']),
   new DefinePlugin({
