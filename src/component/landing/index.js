@@ -1,5 +1,6 @@
 import './_landing.scss';
 import React from 'react';
+import Tilt from 'react-tilt';
 
 import Catherine from '../../assets/author.jpg';
 import BusinessCard from '../../assets/cclogo.png';
@@ -35,8 +36,9 @@ export default class Landing extends React.Component {
     return (
       <div onClick={this.toggleBackgroundColorCard}> 
         <h1 className={this.state.isBlinking ? 'toggleBlink' : ''} id="blink" onClick={this.toggleBlink}>catherine looper</h1>
-        <img onClick={this.toggleBackgroundColorCard} style={{backgroundColor: this.state.backgroundColorCard}} id="logo" src={BusinessCard} />
-        
+        <Tilt className="Tilt" options={{ max : 25, easing:         'cubic-bezier(.03,.98,.52,.99)' }} style={{ height: 750, width: 750 }} >
+          <div className="Tilt-inner"> <img onClick={this.toggleBackgroundColorCard} style={{backgroundColor: this.state.backgroundColorCard}} id="logo" src={BusinessCard} /> </div>
+        </Tilt>
         <footer>
           <a href="/"><h3> © Catherine Looper 2018</h3></a>
         </footer>
