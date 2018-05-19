@@ -1,4 +1,4 @@
-# Catherine Looper - Portfolio
+# Catherine Looper - Portfolio - Welcome To Me
 
 ## Deployed Site: 
 http://www.catherinelooper.com/
