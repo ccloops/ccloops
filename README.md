@@ -38,6 +38,7 @@ https://www.linkedin.com/in/catherinelooper/
 * babel-plugin-transform-object-rest-spread
 * babel-preset-env
 * babel-preset-react
+* clean-webpack-plugin
 * css-loader
 * dotenv
 * eslint-plugin-react
@@ -52,10 +53,13 @@ https://www.linkedin.com/in/catherinelooper/
 * react-icons
 * react-pdf
 * react-router-dom
+* react-tilt
 * resolve-url-loader
 * sass-loader
 * style-loader
 * superagent
+* uglify-js
 * url-loader
+* vanilla-tilt
 * webpack
 * webpack-dev-server
