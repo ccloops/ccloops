@@ -63,3 +63,7 @@ https://www.linkedin.com/in/catherinelooper/
 * vanilla-tilt
 * webpack
 * webpack-dev-server
+
+### License
+
+MIT © Catherine Looper
