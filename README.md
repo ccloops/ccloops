@@ -17,7 +17,7 @@ https://www.linkedin.com/in/catherinelooper/
 
 * JavaScript Developer, MERN Stack with background in customer service, inventory management, and database querying. Passionate about solution-driven development with a focus in creative and innovative customer-minded applications.
 
-* In my free time, I enjoy creating photo and video projects for local musicians, attending Seattle JS Hackers Meetups and tinkering with web design and iOS applications.
+* In my free time, I enjoy creating photo and video projects for local musicians, hosting Seattle JS Hackers Sunday Coffee Break Meetup and tinkering with web design and iOS applications.
 
 ## Showcased Projects:
 
