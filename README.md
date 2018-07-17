@@ -19,6 +19,8 @@ https://www.linkedin.com/in/catherinelooper/
 
 * In my free time, I enjoy creating photo and video projects for local musicians, hosting Seattle JS Hackers Sunday Coffee Break Meetup and tinkering with web design and iOS applications.
 
+* Currently working as a Frontend Developer building out pixel perfect react applications.
+
 ## Showcased Projects:
 
 ### `GeoJumper`
